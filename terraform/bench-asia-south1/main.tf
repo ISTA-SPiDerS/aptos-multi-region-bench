@@ -9,11 +9,10 @@ variable "project" {
 }
 
 locals {
-  region  = "us-west1"
+  region  = "asia-south1"
   zone    = "a"
   project = var.project
-  }
-
+}
 
 module "aptos-node" {
   source = "../../submodules/aptos-core/terraform/aptos-node/gcp"
@@ -24,7 +23,7 @@ module "aptos-node" {
   zone    = local.zone    # Specify the zone suffix
   project = local.project # Specify your GCP project name
 
-  validator_name = "aptos-bench-na-nodes"
+  validator_name = "aptos-bench-asia-nodes"
 
   # for naming purposes to avoid name collisions
   chain_name          = "aptos-bench"

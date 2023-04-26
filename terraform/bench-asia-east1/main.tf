@@ -9,7 +9,7 @@ variable "project" {
 }
 
 locals {
-  region  = "asia-east1"
+  region  = "asia-east2"
   zone    = "a"
   project = var.project
 }
@@ -37,8 +37,8 @@ module "aptos-node" {
   gke_enable_autoscaling               = false
   gke_enable_node_autoprovisioning     = true
   # space for at least 100 k8s worker nodes, assuming 48 vCPU and 192 GB RAM per node
-  gke_node_autoprovisioning_max_cpu    = 48 * 100
-  gke_node_autoprovisioning_max_memory = 192 * 100
+  gke_node_autoprovisioning_max_cpu    = 48 * 4
+  gke_node_autoprovisioning_max_memory = 192 * 4
 }
 
 resource "local_file" "kubectx" {

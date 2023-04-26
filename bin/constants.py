@@ -8,7 +8,7 @@ from kubernetes import config, client
 class Cluster(Enum):
     US = "bench-us-west1"
     EU = "bench-europe-west4"
-    ASIA = "bench-asia-east1"
+    ASIA = "bench-asia-south1"
     ALL = "all"
 
 
@@ -20,12 +20,13 @@ GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID")
 if not GCP_PROJECT_ID:
     raise Exception("GCP_PROJECT_ID not set")
 
-CLUSTERS = {Cluster.US: 33, Cluster.EU: 33, Cluster.ASIA: 34}
+# CLUSTERS = {Cluster.US: 33, Cluster.EU: 33, Cluster.ASIA: 34}
+CLUSTERS = {Cluster.ASIA: 6} # smaller cluster configuration for testing
 # CLUSTERS = {Cluster.NA: 5, Cluster.EU: 5, Cluster.ASIA: 6} # smaller cluster configuration for testing
 KUBE_CONTEXTS = {
     Cluster.US: f"gke_{GCP_PROJECT_ID}_us-west1-a_aptos-{Cluster.US.value}",
     Cluster.EU: f"gke_{GCP_PROJECT_ID}_europe-west4-a_aptos-{Cluster.EU.value}",
-    Cluster.ASIA: f"gke_{GCP_PROJECT_ID}_asia-east1-a_aptos-{Cluster.ASIA.value}",
+    Cluster.ASIA: f"gke_{GCP_PROJECT_ID}_asia-south1-a_aptos-{Cluster.ASIA.value}",
 }
 NAMESPACE = "default"
 

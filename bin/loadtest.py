@@ -72,12 +72,12 @@ def build_pod_template() -> PodTemplate:
                     # is not the bottleneck
                     "resources": {
                         "requests": {
-                            "cpu": "16",
-                            "memory": "16Gi",
+                            "cpu": "1",
+                            "memory": "4Gi",
                         },
                         "limits": {
-                            "cpu": "16",
-                            "memory": "16Gi",
+                            "cpu": "1",
+                            "memory": "4Gi",
                         },
                     },
                 }
