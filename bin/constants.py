@@ -21,7 +21,7 @@ if not GCP_PROJECT_ID:
     raise Exception("GCP_PROJECT_ID not set")
 
 # CLUSTERS = {Cluster.US: 33, Cluster.EU: 33, Cluster.ASIA: 34}
-CLUSTERS = {Cluster.ASIA: 6} # smaller cluster configuration for testing
+CLUSTERS = {Cluster.ASIA: 2} # smaller cluster configuration for testing
 # CLUSTERS = {Cluster.NA: 5, Cluster.EU: 5, Cluster.ASIA: 6} # smaller cluster configuration for testing
 KUBE_CONTEXTS = {
     Cluster.US: f"gke_{GCP_PROJECT_ID}_us-west1-a_aptos-{Cluster.US.value}",

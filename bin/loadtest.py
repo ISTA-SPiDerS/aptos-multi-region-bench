@@ -56,7 +56,7 @@ def build_pod_template() -> PodTemplate:
             "containers": [
                 {
                     "name": LOADTEST_POD_NAME,
-                    "image": "aptoslabs/tools:devnet_performance",
+                    "image": "aptoslabs/tools:devnet",
                     "env": [
                         {
                             "name": "RUST_BACKTRACE",
@@ -111,7 +111,6 @@ def build_loadtest_command(
             else f"--mempool-backlog={loadtestConfig['mempool_backlog']}"
         ],
         f"--duration={loadtestConfig['duration']}",
-        f"--delay-after-minting=300",
         f"--expected-max-txns={20000 * loadtestConfig['duration']}",
         "--txn-expiration-time-secs=" f"{loadtestConfig['txn_expiration_time_secs']}",
         "--max-transactions-per-account=5",
@@ -326,7 +325,6 @@ def main(
             "mempool_backlog": mempool_backlog,
             "txn_expiration_time_secs": txn_expiration_time_secs,
             "coin_transfer": coin_transfer,
-            "delay_after_minting": 300,
         }
         spec = configure_loadtest(template, config)
         spec_file = f"{cluster.value}_{LOADTEST_POD_SPEC}"

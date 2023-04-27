@@ -55,11 +55,11 @@ validator:
       max_receiving_block_txns: 16000
       max_sending_block_bytes: 10000000
       max_receiving_block_bytes: 15000000
-      quorum_store_configs: 
-        max_batch_counts: 300
-        mempool_txn_pull_max_count: 300
-        mempool_txn_pull_max_bytes: 1000000
-        back_pressure_local_batch_num: 10
+        # quorum_store_configs: 
+        # max_batch_counts: 300
+        # mempool_txn_pull_max_count: 300
+        # mempool_txn_pull_max_bytes: 1000000
+        # back_pressure_local_batch_num: 10
     execution:
       processed_transactions_detailed_counters: true
       concurrency_level: 24

@@ -1,0 +1,35 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: loadtest
+spec:
+  containers:
+  - command:
+    - aptos-transaction-emitter
+    - emit-tx
+    - --mint-key=0xE25708D90C72A53B400B27FC7602C4D546C7B7469FA6E12544F0EBFB2F16AE19
+    - --chain-id=7
+    - --targets=http://34.93.160.157:8080
+    - --targets=http://34.100.252.124:8080
+    - --mempool-backlog=1000
+    - --duration=120
+    - --expected-max-txns=2400000
+    - --txn-expiration-time-secs=60
+    - --max-transactions-per-account=5
+    - --transaction-type
+    - coin-transfer
+    env:
+    - name: RUST_BACKTRACE
+      value: '1'
+    - name: REUSE_ACC
+      value: '1'
+    image: aptoslabs/tools:devnet
+    name: loadtest
+    resources:
+      limits:
+        cpu: '1'
+        memory: 4Gi
+      requests:
+        cpu: '1'
+        memory: 4Gi
+  restartPolicy: Never
