@@ -1,4 +1,4 @@
-imageTag: clean10k # change this to the docker image tag you want
+imageTag: devnet_performance # change this to the docker image tag you want
 
 chain:
   chain_id: TESTING
@@ -27,27 +27,27 @@ service:
 # the validator configuration
 validator:
   enableNetworkPolicy: false # haproxy disabled, we need to disable the default NetworkPolicy to enable validator discovery
-    # affinity:
-    #podAntiAffinity:
-    #  requiredDuringSchedulingIgnoredDuringExecution:
-    #    - labelSelector:
-    #        matchExpressions:
-    #          - key: app.kubernetes.io/name
-    #            operator: In
-    #            values:
-    #              - validator
-    #      topologyKey: kubernetes.io/hostname
+  affinity:
+    podAntiAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        - labelSelector:
+            matchExpressions:
+              - key: app.kubernetes.io/part-of
+                operator: In
+                values:
+                  - aptos-node
+          topologyKey: kubernetes.io/hostname
   image:
-    repo: galexo/validator
+    repo: aptoslabs/validator
   resources:
     limits:
-      cpu: "4"
+      cpu: "2"
       memory: 4Gi
     requests:
-      cpu: "4"
+      cpu: "2"
       memory: 4Gi
   storage:
-    class: gp3
+    class: ssd
     size: 100Gi
   config:
     consensus:
@@ -81,18 +81,18 @@ validator:
 
 # the VFN configuration
 fullnode:
-  #  affinity:
-  #  podAntiAffinity:
-  #    requiredDuringSchedulingIgnoredDuringExecution:
-  #      - labelSelector:
-  #          matchExpressions:
-  #            - key: app.kubernetes.io/name
-  #              operator: In
-  #              values:
-  #                - fullnode
-  #        topologyKey: kubernetes.io/hostname
+  affinity:
+    podAntiAffinity:
+      requiredDuringSchedulingIgnoredDuringExecution:
+        - labelSelector:
+            matchExpressions:
+              - key: app.kubernetes.io/part-of
+                operator: In
+                values:
+                  - aptos-node
+          topologyKey: kubernetes.io/hostname
   image:
-    repo: galexo/validator
+    repo: aptoslabs/validator
   resources:
     limits:
       cpu: "2"
@@ -101,7 +101,7 @@ fullnode:
       cpu: "2"
       memory: 4Gi
   storage:
-    class: gp3
+    class: ssd
     size: 100Gi
   config:
     api:

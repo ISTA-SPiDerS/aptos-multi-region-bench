@@ -1,11 +1,6 @@
 terraform {
   required_version = "~> 1.3.6"
-  backend "s3" {
-    bucket = "spiders-aptos"
-    key = "state/testnet"
-    region = "us-west-1"
-
-  }
+  backend "gcs" {}
 }
 
 variable "project" {
@@ -14,13 +9,13 @@ variable "project" {
 }
 
 locals {
-  region  = "asia-east1"
+  region  = "asia-south1"
   zone    = "a"
   project = var.project
 }
 
 module "aptos-node" {
-  source = "../../submodules/aptos-core/terraform/aptos-node/gcp"
+  source = "../../submodules/aptos-core/terraform/aptos-node/gcp-node-only"
 
   manage_via_tf = false # manage via cluster.py tooling instead
 

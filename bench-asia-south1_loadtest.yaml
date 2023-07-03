@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: loadtest
+spec:
+  containers:
+  - command:
+    - aptos-transaction-emitter
+    - emit-tx
+    - --mint-key=0xE25708D90C72A53B400B27FC7602C4D546C7B7469FA6E12544F0EBFB2F16AE19
+    - --chain-id=7
+    - --targets=http://35.244.52.224:8080
+    - --targets=http://34.100.131.66:8080
+    - --targets=http://35.200.248.205:8080
+    - --targets=http://35.200.163.42:8080
+    - --mempool-backlog=1000
+    - --duration=120
+    - --expected-max-txns=2400000
+    - --txn-expiration-time-secs=60
+    - --max-transactions-per-account=10
+    - --transaction-type
+    - dexbursty
+    env:
+    - name: RUST_BACKTRACE
+      value: '1'
+    - name: REUSE_ACC
+      value: '1'
+    image: galexo/tools:17_5_1400
+    name: loadtest
+    resources:
+      limits:
+        cpu: '4'
+        memory: 4Gi
+      requests:
+        cpu: '4'
+        memory: 4Gi
+  restartPolicy: Never

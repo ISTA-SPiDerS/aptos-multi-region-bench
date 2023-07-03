@@ -1,11 +1,6 @@
 terraform {
   required_version = "~> 1.3.6"
-  backend "s3" {
-    bucket = "spiders-aptos"
-    key = "state/testnet"
-    region = "us-west-1"
-
-  }
+  backend "gcs" {}
 }
 
 variable "project" {
@@ -14,13 +9,13 @@ variable "project" {
 }
 
 locals {
-  region  = "asia-east1"
+  region  = "asia-east2"
   zone    = "a"
   project = var.project
 }
 
 module "aptos-node" {
-  source = "../../submodules/aptos-core/terraform/aptos-node/gcp"
+  source = "../../submodules/aptos-core/terraform/aptos-node/gcp-node-only"
 
   manage_via_tf = false # manage via cluster.py tooling instead
 
@@ -39,8 +34,8 @@ module "aptos-node" {
   enable_logger     = false
 
   # Autoscaling configuration
-  gke_enable_autoscaling               = true
-  gke_enable_node_autoprovisioning     = false
+  gke_enable_autoscaling               = false
+  gke_enable_node_autoprovisioning     = true
   # space for at least 100 k8s worker nodes, assuming 48 vCPU and 192 GB RAM per node
   gke_node_autoprovisioning_max_cpu    = 48 * 4
   gke_node_autoprovisioning_max_memory = 192 * 4
