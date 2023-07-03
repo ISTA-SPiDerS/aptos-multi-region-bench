@@ -1,28 +1,24 @@
 terraform {
   required_version = "~> 1.3.6"
-  backend "gcs" {}
-}
+  backend "s3" {
+    bucket = "spiders-aptos"
+    key = "state/testnet"
+    region = "us-west-1"
 
-variable "project" {
-  type        = string
-  description = "GCP project ID"
+  }
 }
 
 locals {
-  region  = "us-west1"
-  zone    = "a"
-  project = var.project
+  region  = "us-west-1"
   }
 
 
 module "aptos-node" {
-  source = "../../submodules/aptos-core/terraform/aptos-node/gcp"
+  source = "../../submodules/aptos-core/terraform/aptos-node/aws-node-only"
 
   manage_via_tf = false # manage via cluster.py tooling instead
 
   region  = local.region  # Specify the region
-  zone    = local.zone    # Specify the zone suffix
-  project = local.project # Specify your GCP project name
 
   validator_name = "aptos-bench-na-nodes"
 
@@ -35,18 +31,14 @@ module "aptos-node" {
   enable_logger     = false
 
   # Autoscaling configuration
-  gke_enable_autoscaling               = false
-  gke_enable_node_autoprovisioning     = true
   # space for at least 100 k8s worker nodes, assuming 48 vCPU and 192 GB RAM per node
-  gke_node_autoprovisioning_max_cpu    = 48 * 4
-  gke_node_autoprovisioning_max_memory = 192 * 4
 }
 
-resource "local_file" "kubectx" {
-  filename = "kubectx.sh"
-  content  = <<-EOF
-  #!/bin/bash
+# resource "local_file" "kubectx" {
+#   filename = "kubectx.sh"
+#   content  = <<-EOF
+#   #!/bin/bash
 
-  gcloud container clusters get-credentials aptos-${terraform.workspace} --zone ${local.region}-${local.zone}
-  EOF
-}
+#   gcloud container clusters get-credentials aptos-${terraform.workspace} --zone ${local.region}-${local.zone}
+#   EOF
+# }

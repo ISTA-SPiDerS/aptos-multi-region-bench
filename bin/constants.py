@@ -6,9 +6,9 @@ from kubernetes import config, client
 
 
 class Cluster(Enum):
-    US = "bench-us-west1"
+    US = "bench-us-west"
     EU = "bench-europe-west4"
-    ASIA = "bench-asia-south1"
+    ASIA = "bench-asia-east1"
     ALL = "all"
 
 
@@ -16,17 +16,17 @@ GENESIS_DIRECTORY = "genesis"
 APTOS_NODE_HELM_CHART_DIRECTORY = "submodules/aptos-core/terraform/helm/aptos-node"
 APTOS_NODE_HELM_VALUES_FILE = "aptos_node_helm_values.yaml"
 
-GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID")
-if not GCP_PROJECT_ID:
-    raise Exception("GCP_PROJECT_ID not set")
+#GCP_PROJECT_ID = os.getenv("GCP_PROJECT_ID")
+#if not GCP_PROJECT_ID:
+#    raise Exception("GCP_PROJECT_ID not set")
 
 # CLUSTERS = {Cluster.US: 33, Cluster.EU: 33, Cluster.ASIA: 34}
-CLUSTERS = {Cluster.ASIA: 2} # smaller cluster configuration for testing
+CLUSTERS = {Cluster.US: 4} # smaller cluster configuration for testing
 # CLUSTERS = {Cluster.NA: 5, Cluster.EU: 5, Cluster.ASIA: 6} # smaller cluster configuration for testing
 KUBE_CONTEXTS = {
-    Cluster.US: f"gke_{GCP_PROJECT_ID}_us-west1-a_aptos-{Cluster.US.value}",
-    Cluster.EU: f"gke_{GCP_PROJECT_ID}_europe-west4-a_aptos-{Cluster.EU.value}",
-    Cluster.ASIA: f"gke_{GCP_PROJECT_ID}_asia-south1-a_aptos-{Cluster.ASIA.value}",
+    Cluster.US: f"arn:aws:eks:us-west-1:064124621132:cluster/aptos-default",
+    #Cluster.EU: f"gke_{GCP_PROJECT_ID}_europe-west4-a_aptos-{Cluster.EU.value}",
+    #Cluster.ASIA: f"gke_{GCP_PROJECT_ID}_asia-east1-a_aptos-{Cluster.ASIA.value}",
 }
 NAMESPACE = "default"
 

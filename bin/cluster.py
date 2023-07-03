@@ -37,9 +37,9 @@ def get_validator_fullnode_host(
         if node_name in service.metadata.name:
             try:
                 if validator_svc_substring in service.metadata.name:
-                    validator_host = service.status.load_balancer.ingress[0].ip
+                    validator_host = service.status.load_balancer.ingress[0].hostname
                 if fullnode_svc_substring in service.metadata.name:
-                    fullnode_host = service.status.load_balancer.ingress[0].ip
+                    fullnode_host = service.status.load_balancer.ingress[0].hostname
 
             except:
                 print(
@@ -547,7 +547,8 @@ def delete_cluster(
                     "--kube-context",
                     cluster_kube_config,
                     "uninstall",
-                    available_cluster.value,  # the helm_release is named after the cluster it is in
+                    "default",
+                    #available_cluster.value,  # the helm_release is named after the cluster it is in
                 ],
                 stderr=subprocess.PIPE,
                 stdout=subprocess.PIPE,
