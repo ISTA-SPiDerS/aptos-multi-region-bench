@@ -1,3 +1,4 @@
 [submodule "submodules/aptos-core"]
 	path = submodules/aptos-core
 	url = git@github.com:ISTA-SPiDerS/aptos-fork.git
+    branch = aws
