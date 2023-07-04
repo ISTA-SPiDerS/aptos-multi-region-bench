@@ -48,14 +48,14 @@ validator:
       memory: 4Gi
   storage:
     class: ssd
-    size: 100Gi
+    size: 10Gi
   config:
     consensus:
       max_sending_block_txns: 10000
       max_receiving_block_txns: 16000
       max_sending_block_bytes: 10000000
       max_receiving_block_bytes: 15000000
-        # quorum_store_configs: 
+        # quorum_store_configs:
         # max_batch_counts: 300
         # mempool_txn_pull_max_count: 300
         # mempool_txn_pull_max_bytes: 1000000
@@ -77,7 +77,7 @@ validator:
         use_state_kv_db: true
     validator_network:
       max_frame_size: 20971520
-        
+
 
 # the VFN configuration
 fullnode:
@@ -102,7 +102,7 @@ fullnode:
       memory: 4Gi
   storage:
     class: ssd
-    size: 100Gi
+    size: 10Gi
   config:
     api:
       max_submit_transaction_batch_size: 100
