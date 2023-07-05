@@ -20,7 +20,7 @@ git submodule update --remote
 
 ### Set up AWS access
 
-Create an AWS project and sign in with the `aws` CLI. 
+Create an AWS project and sign-in with the `aws` CLI. 
 
 For reference:
 * Install `aws` CLI: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
@@ -42,7 +42,7 @@ If you are unfamiliar with Terraform, it's highly recommended that you familiari
 * Terraform backends: https://developer.hashicorp.com/terraform/language/settings/backends/configuration
 * Terraform workspaces: https://developer.hashicorp.com/terraform/language/state/workspaces
 
-If there is no pre-existing storage bucket:
+If there is no pre-existing storage bucket (in our case there is):
 Create a storage bucket for storing the Terraform state on Amazon S3. Use the console or this AWS cli to create the bucket. The name of the bucket must be unique. See the S3 documentation here: https://aws.amazon.com/s3/
 
 ```
@@ -54,7 +54,7 @@ Then, edit main.tf of each region to reference the s3 bucket created in the prev
 
 Deploy each region's infrastructure using the following commands. For each of the Terraform project directories in `terraform/`, run the following series of commands:
 
-Because the terraform scripts have not been properly written, we split cluster creation and K8s configuration into discrete plan/apply cycles. First, change main.tf to reference the aws-node-only submodule folder and perform the steps below and then repeat with aws submodule folder using the same workspace.
+Because the terraform scripts have not been properly written, we split cluster creation and K8s configuration into discrete plan/apply cycles inspired by [hashicorp/terraform-provider-kubernetes#1078](https://github.com/hashicorp/terraform-provider-kubernetes/pull/1078). First, change main.tf to reference the aws-node-only submodule folder and perform the steps below and then repeat with aws submodule folder using the same workspace.
 
 From personal experience, once the "aws-node-only" part reaches module.aptos-node.aws_eks_addon.aws-ebs-csi-driver, stop it (with Ctlr + C) to save some time. Also, the "aws" part may need a short second iteration.
 ```
