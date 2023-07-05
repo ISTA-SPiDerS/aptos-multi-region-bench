@@ -95,8 +95,9 @@ aws s3api create-bucket --bucket my-bucket --region us-east-1
 Then, edit main.tf of each region to reference the s3 bucket created in the previous step..
 
 Deploy each region's infrastructure using the following commands. For each of the Terraform project directories in `terraform/`, run the following series of commands:
-Because the terraform scripts have not been properly written, we split cluster creation and K8s configuration into discrete plan/apply cycles.
-First, change main.tf to reference the aws-node-only submodule folder and perform the steps below and then repeat with aws submodule folder using the same workspace.
+
+Because the terraform scripts have not been properly written, we split cluster creation and K8s configuration into discrete plan/apply cycles. First, change main.tf to reference the aws-node-only submodule folder and perform the steps below and then repeat with aws submodule folder using the same workspace.
+
 From personal experience, once the "aws-node-only" part reaches module.aptos-node.aws_eks_addon.aws-ebs-csi-driver, stop it (with Ctlr + C) to save some time. Also, the "aws" part may need a short second iteration.
 ```
 #
