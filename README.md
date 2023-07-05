@@ -143,7 +143,7 @@ time ./bin/cluster.py upgrade
 ### `loadtest.py`
 
 Submit load test against the network. The root keypair is hardcoded in genesis. The below commands show some cutomization options for the loadtest utility.
-
+To change the load type (e.g from coin-transfer to dexbursty) configure aptos-multi-region-bench/bin/loadtest.py:118 without changing the parameter --coin-transfer of the command below (lazy soluton).
 ```
 # apply the benchmnark loadtest for an hour:
 ./bin/loadtest.py 0xE25708D90C72A53B400B27FC7602C4D546C7B7469FA6E12544F0EBFB2F16AE19 7 --apply --txn-expiration-time-secs=60 --mempool-backlog=25000 --duration=3600 --only-within-cluster --coin-transfer
