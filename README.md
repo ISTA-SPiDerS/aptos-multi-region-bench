@@ -78,7 +78,7 @@ terraform apply
 
 After all the infrastructure is created, you can use the `cluster.py` utility to authenticate against all clusters. This will be your primary tool for interacting with each of the cluster's workloads. It is a wrapper around the kube API and familiar `kubectl` commands.
 
-For this to work, update the kubeconfig of the eks cluster.
+For this to work, update the kubeconfig of the EKS cluster.
 ```
 aws eks update-kubeconfig --region us-west-1 --name aptos-default
 ```
