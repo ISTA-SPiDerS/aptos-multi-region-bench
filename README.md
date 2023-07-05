@@ -213,6 +213,8 @@ To bring back the network, you can try:
 ./bin/cluster.py upgrade --new
 ```
 
+### Changing number of validator node instances
+To spawn more validator node instances (c6i.8xlarge) configure the desired (and potentially maximum) size of the instance pool in submodules/aptos-core/terraform/aptos-node/aws/cluster.tf and re-apply the terraform configuration. This can be done while the cluster is running with no problem.
 
 #### Wipe the network and start from scratch
 
@@ -236,23 +238,8 @@ For example:
 
 ```
 docker run -it aptoslabs/tools:${IMAGE_TAG} bash
-docker cp `docker container ls | grep tools:${IMAGE_TAG} | awk '{print $1}'`:/aptos-framework/move/head.mrb genesis/framework.mrb 
+docker cp `docker container ls | grep tools:${IMAGE_TAG} | awk '{print $1}'`:/aptos-framework/move/head.mrb genesis/framework.mrb
 ```
 
-#### Individual GKE cluster auth
 
-`./bin/cluster.py auth` authencates across all clusters, but you make want to use the below commands to authenticate and change your kube context manually for each cluster.
 
-Each cluster is deployed in its own region via `terraform/` top-level directory. The `kubectx.sh` script in each will authenticate you against each cluster and set your kubectl context to match.
-
-#### Changing machine types
-
-This kubernetes setup relies on GKE's [Node auto-provisioning (NAP)](https://cloud.google.com/kubernetes-engine/docs/how-to/node-auto-provisioning). This allows us to specify a machine family in each workload's `nodeAffinity`. The size of the machine is automatically assigned, based on the size of the workload. In general the workload resource request must be a bit less than the max capacity. For example, if you want to use a 48 vCPU machine for validators, you may need to set the resource request at 42 vCPU only to give slack to the Node auto-provisioner, otherwise it may provision the next largest machine size.
-
-The default machine configuration via node auto-provisioning is already set in `aptos_node_helm_values.yaml`. Particularly, note the following keys:
-* `validator.affinity.nodeAffinity` -- guarantee machine type via NAP
-* `validator.resources` -- resource request and limit
-* `validator.affinity.podAntiAffinity` -- prevent validators from sharing the same machine as other validators and fullnodes
-* `fullnode.affinity.nodeAffinity` -- same as above, but for fullnodes
-* `fullnode.affinity.podAntiAffinity` -- same as above, but for fullnodes
-* `fullnode.resources` -- same as above, but for fullnodes
