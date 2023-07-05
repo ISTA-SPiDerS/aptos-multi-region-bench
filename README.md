@@ -60,19 +60,17 @@ At any point you can update the submodule with:
 git submodule update --remote
 ```
 
-### Set up GCP access
+### Set up AWS access
 
-Create a GCP project and sign in with the `gcloud` CLI. Also it will be useful to set the environment variable `GCP_PROJECT_ID` for future use.
+Create an AWS project and sign in with the `aws` CLI. 
 
 For reference:
-* Install `gcloud` CLI: https://cloud.google.com/sdk/docs/install
-* Create a GCP project: https://cloud.google.com/resource-manager/docs/creating-managing-projects
+* Install `aws` CLI: https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+* Authenticate with short-term credentials: https://docs.aws.amazon.com/cli/latest/userguide/cli-authentication-short-term.html
 
 ```
-export GCP_PROJECT_ID=<YOUR_GCP_PROJECT_ID>
-
-gcloud auth login --update-adc
-gcloud config set project $GCP_PROJECT_ID
+aws configure
+aws eks update-kubeconfig --region us-west-1 --name aptos-default
 ```
 
 ### Set up the infrastructure
@@ -86,7 +84,8 @@ If you are unfamiliar with Terraform, it's highly recommended that you familiari
 * Terraform backends: https://developer.hashicorp.com/terraform/language/settings/backends/configuration
 * Terraform workspaces: https://developer.hashicorp.com/terraform/language/state/workspaces
 
-Create a storage bucket for storing the Terraform state on Google Cloud Storage. Use the console or this `gcs` command to create the bucket. The name of the bucket must be unique. See the Google Cloud Storage documentation here: https://cloud.google.com/storage/docs/creating-buckets#prereq-cli.
+If there is no pre-existing storage bucket:
+Create a storage bucket for storing the Terraform state on Amazon S3. Use the console or this AWS cli to create the bucket. The name of the bucket must be unique. See the S3 documentation here: https://aws.amazon.com/s3/
 
 ```
 gsutil mb gs://BUCKET_NAME
