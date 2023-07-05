@@ -28,7 +28,6 @@ For reference:
 
 ```
 aws configure
-aws eks update-kubeconfig --region us-west-1 --name aptos-default
 ```
 
 ### Set up the infrastructure
@@ -56,15 +55,15 @@ Deploy each region's infrastructure using the following commands. For each of th
 
 Because the terraform scripts have not been properly written, we split cluster creation and K8s configuration into discrete plan/apply cycles inspired by [hashicorp/terraform-provider-kubernetes#1078](https://github.com/hashicorp/terraform-provider-kubernetes/pull/1078). First, change main.tf to reference the aws-node-only submodule folder and perform the steps below and then repeat with aws submodule folder using the same workspace.
 
-From personal experience, once the "aws-node-only" part reaches module.aptos-node.aws_eks_addon.aws-ebs-csi-driver, stop it (with Ctlr + C) to save some time. Also, the "aws" part may need a short second iteration.
+From personal experience, once the "aws-node-only" part reaches module.aptos-node.aws_eks_addon.aws-ebs-csi-driver, stop it (with Ctlr + C) to save some time. Also, the "aws" part may need a short second iteration because of some dependencies not set correctly.
 ```
 #
-# Initialize terraform and its backend, using the backend configuration created in the previous step
+# Initialize terraform and its backend.
 # This will copy the public reference terraform modules written by Aptos Labs into the .terraform/modules directory
 terraform init 
 
 # Initialize your terraform workspaces, one unique workspace name for each directory.
-You can skip this step and "default" workspace will be used.
+You can skip this step and "default" workspace will be used. (I recommend this since the name of the bucket that exists has been created in the default workspace)
 terraform workspace new <WORKSPACE_NAME>
 # for example
 terraform workspace new bench-asia-east1
@@ -79,7 +78,10 @@ terraform apply
 
 After all the infrastructure is created, you can use the `cluster.py` utility to authenticate against all clusters. This will be your primary tool for interacting with each of the cluster's workloads. It is a wrapper around the kube API and familiar `kubectl` commands.
 
-
+For this to work, update the kubeconfig of the eks cluster.
+```
+aws eks update-kubeconfig --region us-west-1 --name aptos-default
+```
 ### Initialize the Network
 
 At this point, most of the required infrastructure has been set up. You must now begin the genesis process and start all the Aptos nodes in each kubernetes cluster. As a quick sanity check, visit this URL to view all your active kubernetes clusters within the project, and confirm that all are in a healthy "green" state. If not, use AWS's tooltips and logs to help debug.
