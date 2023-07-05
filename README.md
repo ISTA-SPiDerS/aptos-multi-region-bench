@@ -88,24 +88,23 @@ If there is no pre-existing storage bucket:
 Create a storage bucket for storing the Terraform state on Amazon S3. Use the console or this AWS cli to create the bucket. The name of the bucket must be unique. See the S3 documentation here: https://aws.amazon.com/s3/
 
 ```
-gsutil mb gs://BUCKET_NAME
 # for example
-gsutil mb gs://<project-name>-aptos-terraform-bench
+aws s3api create-bucket --bucket my-bucket --region us-east-1
 ```
 
-Then, edit `terraform/example.backend.tfvars` to reference the gcs bucket created in the previous step. Rename `terraform/example.backend.tfvars` to `terraform/backend.tfvars`.
+Then, edit main.tf of each region to reference the s3 bucket created in the previous step..
 
 Deploy each region's infrastructure using the following commands. For each of the Terraform project directories in `terraform/`, run the following series of commands:
-
+Because the terraform scripts have not been properly written, we split cluster creation and K8s configuration into discrete plan/apply cycles.
+First, change main.tf to reference the aws-node-only submodule folder and perform the steps below and then repeat with aws submodule folder using the same workspace.
 ```
+#
 # Initialize terraform and its backend, using the backend configuration created in the previous step
 # This will copy the public reference terraform modules written by Aptos Labs into the .terraform/modules directory
-terraform init -backend-config=../backend.tfvars
-
-# This environment variable is used to apply the infrastructure to the GCP project you set up in the previous step
-export TF_VAR_project=$GCP_PROJECT_ID
+terraform init 
 
 # Initialize your terraform workspaces, one unique workspace name for each directory.
+You can skip this step and "default" workspace will be used.
 terraform workspace new <WORKSPACE_NAME>
 # for example
 terraform workspace new bench-asia-east1
@@ -120,15 +119,10 @@ terraform apply
 
 After all the infrastructure is created, you can use the `cluster.py` utility to authenticate against all clusters. This will be your primary tool for interacting with each of the cluster's workloads. It is a wrapper around the kube API and familiar `kubectl` commands.
 
-Authenticate with all GKE clusters
-```
-# this script must be run from the repository root
-./bin/cluster.py auth
-```
 
 ### Initialize the Network
 
-At this point, most of the required infrastructure has been set up. You must now begin the genesis process and start all the Aptos nodes in each kubernetes cluster. As a quick sanity check, visit this URL to view all your active kubernetes clusters within the project https://console.cloud.google.com/kubernetes/list/overview?referrer=search&project=<YOUR_PROJECT_ID>, and confirm that all are in a healthy "green" state. If not, use GKE's tooltips and logs to help debug.
+At this point, most of the required infrastructure has been set up. You must now begin the genesis process and start all the Aptos nodes in each kubernetes cluster. As a quick sanity check, visit this URL to view all your active kubernetes clusters within the project, and confirm that all are in a healthy "green" state. If not, use AWS's tooltips and logs to help debug.
 
 By default, the Terraform modules will also install some baseline Aptos workloads on each of the kubernetes clusters as well (e.g. 1 validator). To check these running workloads, run the following from the project root:
 
@@ -151,13 +145,12 @@ In this setup, you will mostly be interacting with `aptos_node_helm_values.yaml`
 Firstly, start all the validators and fullnodes.
 
 ```
-# 1. This performs a helm upgrade to all clusters to spin up the validators and fullnodes (this may take a few minutes)
-time ./bin/cluster.py upgrade --new
+# 1. This performs a helm upgrade to all clusters to spin up the validators and fullnodes (this may take a few minutes). The scripts in the next steps expect to have equal number of vfn's else they crash, so also pass the flag --vfn-enabled.
+time ./bin/cluster.py upgrade --new --vfn-enabled
 ```
 
 You will see most pods are in a `ContainerCreating` state. This is because these pods (fullnodes and validators) are waiting for their keys and genesis configurations, which will be done in a later step.
 
-You might also see some pods in `Pending` state. This is likely due to GKE's underlying autoscaler kicking in. It may take a few minutes for the necessary compute to be available to the cluster. Part of why we install the validators and fullnodes workloads as the first step is to warm up the infrastructure.
 
 In order to progress to the next steps, check that all LoadBalancers have been provisioned for each validator and fullnode. From the output, check if there are any services that have `<pending>` for their `EXTERNAL-IP`. Wait until all LoadBalancers are brought up before proceeding to the next step.
 
