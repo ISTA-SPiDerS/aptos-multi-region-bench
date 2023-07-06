@@ -42,6 +42,7 @@ If you are unfamiliar with Terraform, it's highly recommended that you familiari
 * Terraform workspaces: https://developer.hashicorp.com/terraform/language/state/workspaces
 
 Make sure to install Terraform 1.3.6
+Also install kubectl
 
 
 If there is no pre-existing storage bucket (in our case there is):
