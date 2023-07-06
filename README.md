@@ -40,6 +40,7 @@ If you are unfamiliar with Terraform, it's highly recommended that you familiari
 * What is Terraform: https://developer.hashicorp.com/terraform/intro
 * Terraform backends: https://developer.hashicorp.com/terraform/language/settings/backends/configuration
 * Terraform workspaces: https://developer.hashicorp.com/terraform/language/state/workspaces
+
 Make sure to install Terraform 1.3.6
 
 
