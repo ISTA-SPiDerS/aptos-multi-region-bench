@@ -108,6 +108,7 @@ Install helm
 Some of the scripts below require the `aptos` CLI to be installed. Install instructions: https://aptos.dev/cli-tools/aptos-cli-tool/
 
 Also ensure that the CLI is available in the `PATH`.
+Needs to be 1.0.6+
 
 #### Run genesis
 
