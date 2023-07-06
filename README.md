@@ -98,6 +98,11 @@ By default, the Terraform modules will also install some baseline Aptos workload
 
 These workloads will soon be replaced with the following steps, which initializes the benchmark network.
 
+Install python3
+Install pip
+Use pip to install click, kubernetes
+
+
 #### Install `aptos` CLI
 
 Some of the scripts below require the `aptos` CLI to be installed. Install instructions: https://aptos.dev/cli-tools/aptos-cli-tool/
