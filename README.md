@@ -101,7 +101,7 @@ These workloads will soon be replaced with the following steps, which initialize
 Install python3
 Install pip
 Use pip to install click, kubernetes
-
+Install helm
 
 #### Install `aptos` CLI
 
