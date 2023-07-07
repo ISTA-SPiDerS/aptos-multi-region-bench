@@ -41,6 +41,10 @@ If you are unfamiliar with Terraform, it's highly recommended that you familiari
 * Terraform backends: https://developer.hashicorp.com/terraform/language/settings/backends/configuration
 * Terraform workspaces: https://developer.hashicorp.com/terraform/language/state/workspaces
 
+Make sure to install Terraform 1.3.6
+Also install kubectl
+
+
 If there is no pre-existing storage bucket (in our case there is):
 Create a storage bucket for storing the Terraform state on Amazon S3. Use the console or this AWS cli to create the bucket. The name of the bucket must be unique. See the S3 documentation here: https://aws.amazon.com/s3/
 
@@ -94,11 +98,17 @@ By default, the Terraform modules will also install some baseline Aptos workload
 
 These workloads will soon be replaced with the following steps, which initializes the benchmark network.
 
+Install python3
+Install pip
+Use pip to install click, kubernetes
+Install helm
+
 #### Install `aptos` CLI
 
 Some of the scripts below require the `aptos` CLI to be installed. Install instructions: https://aptos.dev/cli-tools/aptos-cli-tool/
 
 Also ensure that the CLI is available in the `PATH`.
+Needs to be 1.0.6+
 
 #### Run genesis
 
