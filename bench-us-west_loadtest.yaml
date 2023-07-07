@@ -9,14 +9,14 @@ spec:
     - emit-tx
     - --mint-key=0xE25708D90C72A53B400B27FC7602C4D546C7B7469FA6E12544F0EBFB2F16AE19
     - --chain-id=7
-    - --targets=http://ac3c285d8e286484fb9c097fcd1704c6-1340184815.us-west-1.elb.amazonaws.com:8080
-    - --targets=http://a5dc0dd3bcf7444abaa60bb1841923d3-454246155.us-west-1.elb.amazonaws.com:8080
-    - --targets=http://aa8d9610fd72a49e0b220203792a2f57-1291702521.us-west-1.elb.amazonaws.com:8080
-    - --targets=http://ac74ef2c52361473fa96e17444894379-1817880849.us-west-1.elb.amazonaws.com:8080
-    - --mempool-backlog=1000
-    - --duration=120
-    - --expected-max-txns=2400000
-    - --txn-expiration-time-secs=60
+    - --targets=http://a3224237b72fe4710a136bfa69c1b3fd-703429561.us-west-1.elb.amazonaws.com:8080
+    - --targets=http://a2fe5e5b9cd4349cb853c14595c92e1e-1661966379.us-west-1.elb.amazonaws.com:8080
+    - --targets=http://a17d5cb44f26f497abcbf860ec2e933b-2060101718.us-west-1.elb.amazonaws.com:8080
+    - --targets=http://a0bc0ed60e3304cb0a79e53e69a5ef0b-724812733.us-west-1.elb.amazonaws.com:8080
+    - --mempool-backlog=25000
+    - --duration=300
+    - --expected-max-txns=6000000
+    - --txn-expiration-time-secs=300
     - --max-transactions-per-account=1
     - --transaction-type
     - dexbursty

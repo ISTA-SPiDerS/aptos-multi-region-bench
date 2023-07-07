@@ -41,14 +41,14 @@ validator:
     repo: galexo/validator
   resources:
     limits:
-      cpu: "4"
-      memory: 4Gi
+      cpu: "10"
+      memory: 10Gi
     requests:
-      cpu: "4"
-      memory: 4Gi
+      cpu: "10"
+      memory: 10Gi
   storage:
     class: gp3
-    size: 20Gi
+    size: 100Gi
   config:
     consensus:
       max_sending_block_txns: 10000
@@ -62,7 +62,7 @@ validator:
         # back_pressure_local_batch_num: 10
     execution:
       processed_transactions_detailed_counters: true
-      concurrency_level: 24
+      concurrency_level: 5
     state_sync:
       state_sync_driver:
         bootstrapping_mode: ApplyTransactionOutputsFromGenesis
@@ -102,7 +102,7 @@ fullnode:
       memory: 4Gi
   storage:
     class: gp3
-    size: 20Gi
+    size: 100Gi
   config:
     api:
       max_submit_transaction_batch_size: 100
