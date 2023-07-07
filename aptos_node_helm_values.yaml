@@ -41,10 +41,10 @@ validator:
     repo: galexo/validator
   resources:
     limits:
-      cpu: "10"
+      cpu: "12"
       memory: 10Gi
     requests:
-      cpu: "10"
+      cpu: "12"
       memory: 10Gi
   storage:
     class: gp3
@@ -62,7 +62,7 @@ validator:
         # back_pressure_local_batch_num: 10
     execution:
       processed_transactions_detailed_counters: true
-      concurrency_level: 5
+      concurrency_level: 8
     state_sync:
       state_sync_driver:
         bootstrapping_mode: ApplyTransactionOutputsFromGenesis

@@ -9,10 +9,10 @@ spec:
     - emit-tx
     - --mint-key=0xE25708D90C72A53B400B27FC7602C4D546C7B7469FA6E12544F0EBFB2F16AE19
     - --chain-id=7
-    - --targets=http://a3224237b72fe4710a136bfa69c1b3fd-703429561.us-west-1.elb.amazonaws.com:8080
-    - --targets=http://a2fe5e5b9cd4349cb853c14595c92e1e-1661966379.us-west-1.elb.amazonaws.com:8080
-    - --targets=http://a17d5cb44f26f497abcbf860ec2e933b-2060101718.us-west-1.elb.amazonaws.com:8080
-    - --targets=http://a0bc0ed60e3304cb0a79e53e69a5ef0b-724812733.us-west-1.elb.amazonaws.com:8080
+    - --targets=http://aafd55a4adb6c46ceaeeab0e16dfa3aa-866884286.us-west-1.elb.amazonaws.com:8080
+    - --targets=http://a8a6b15c2cb0a4944be59cc510a7aa45-1356628656.us-west-1.elb.amazonaws.com:8080
+    - --targets=http://a7eb01f4997fc4182a823a81eff39282-1321830241.us-west-1.elb.amazonaws.com:8080
+    - --targets=http://aa3bfaddf60954faeb770c479703a620-589907351.us-west-1.elb.amazonaws.com:8080
     - --mempool-backlog=25000
     - --duration=300
     - --expected-max-txns=6000000
