@@ -41,10 +41,10 @@ validator:
     repo: raycoms/validator
   resources:
     limits:
-      cpu: "12"
+      cpu: "14"
       memory: 20Gi
     requests:
-      cpu: "12"
+      cpu: "14"
       memory: 20Gi
   storage:
     class: gp3
@@ -62,7 +62,7 @@ validator:
         # back_pressure_local_batch_num: 10
     execution:
       processed_transactions_detailed_counters: true
-      concurrency_level: 10
+      concurrency_level: 12
     state_sync:
       state_sync_driver:
         bootstrapping_mode: ApplyTransactionOutputsFromGenesis

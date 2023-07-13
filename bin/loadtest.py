@@ -325,7 +325,8 @@ def main(
             "target_tps": target_tps,
             "duration": duration,
             "mempool_backlog": mempool_backlog,
-            "txn_expiration_time_secs": txn_expiration_time_secs,
+            "workers_per_endpoint": 60,
+	    "txn_expiration_time_secs": txn_expiration_time_secs,
             "coin_transfer": coin_transfer,
         }
         spec = configure_loadtest(template, config)
