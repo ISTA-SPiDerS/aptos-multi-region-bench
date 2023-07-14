@@ -114,7 +114,7 @@ def build_loadtest_command(
         f"--expected-max-txns={20000 * loadtestConfig['duration']}",
         "--txn-expiration-time-secs=" f"{loadtestConfig['txn_expiration_time_secs']}",
         "--max-transactions-per-account=1",
-	    "--workers-per-endpoint=40",
+	    "--workers-per-endpoint=60",
         "--accounts-per-worker=250",
         *(
             ["--transaction-type", "dexbursty"]

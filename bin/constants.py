@@ -21,7 +21,7 @@ APTOS_NODE_HELM_VALUES_FILE = "aptos_node_helm_values.yaml"
 #    raise Exception("GCP_PROJECT_ID not set")
 
 # CLUSTERS = {Cluster.US: 33, Cluster.EU: 33, Cluster.ASIA: 34}
-CLUSTERS = {Cluster.US: 4} # smaller cluster configuration for testing
+CLUSTERS = {Cluster.US: 8} # smaller cluster configuration for testing
 # CLUSTERS = {Cluster.NA: 5, Cluster.EU: 5, Cluster.ASIA: 6} # smaller cluster configuration for testing
 KUBE_CONTEXTS = {
     Cluster.US: f"arn:aws:eks:us-west-1:064124621132:cluster/aptos-default",
