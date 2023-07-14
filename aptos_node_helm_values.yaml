@@ -1,4 +1,4 @@
-imageTag: stm_10_7 # change this to the docker image tag you want
+imageTag: py10_7 # change this to the docker image tag you want
 
 chain:
   chain_id: TESTING
@@ -41,10 +41,10 @@ validator:
     repo: raycoms/validator
   resources:
     limits:
-      cpu: "14"
+      cpu: "20"
       memory: 20Gi
     requests:
-      cpu: "14"
+      cpu: "20"
       memory: 20Gi
   storage:
     class: gp3
@@ -62,7 +62,7 @@ validator:
         # back_pressure_local_batch_num: 10
     execution:
       processed_transactions_detailed_counters: true
-      concurrency_level: 12
+      concurrency_level: 16
     state_sync:
       state_sync_driver:
         bootstrapping_mode: ApplyTransactionOutputsFromGenesis
@@ -95,11 +95,11 @@ fullnode:
     repo: raycoms/validator
   resources:
     limits:
-      cpu: "2"
-      memory: 4Gi
+      cpu: "1"
+      memory: 2Gi
     requests:
-      cpu: "2"
-      memory: 4Gi
+      cpu: "1"
+      memory: 2Gi
   storage:
     class: gp3
     size: 100Gi
