@@ -38,6 +38,7 @@ def get_validator_fullnode_host(
             try:
                 if validator_svc_substring in service.metadata.name:
                     validator_host = service.status.load_balancer.ingress[0].hostname
+                    print(service.status)
                 if fullnode_svc_substring in service.metadata.name:
                     fullnode_host = service.status.load_balancer.ingress[0].hostname
 
