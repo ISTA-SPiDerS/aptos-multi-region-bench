@@ -276,7 +276,7 @@ def create_genesis(
     # create genesis
     subprocess.run(
         [
-            f"yes | {cli_path}aptos genesis generate-genesis --local-repository-dir {GENESIS_DIRECTORY} --output-dir {GENESIS_DIRECTORY}",
+            f"yes | /home/ialexopo/Documents/aptos-fork/target/release/aptos genesis generate-genesis --local-repository-dir {GENESIS_DIRECTORY} --output-dir {GENESIS_DIRECTORY}",
         ],
         shell=True,
     )

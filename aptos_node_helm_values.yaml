@@ -1,4 +1,4 @@
-imageTag: py10_7 # change this to the docker image tag you want
+imageTag: pythia_5_09v2 # change this to the docker image tag you want
 
 chain:
   chain_id: TESTING
@@ -38,7 +38,7 @@ validator:
     #              - validator
     #      topologyKey: kubernetes.io/hostname
   image:
-    repo: raycoms/validator
+    repo: galexo/validator
   resources:
     limits:
       cpu: "20"
@@ -92,7 +92,7 @@ fullnode:
   #                - fullnode
   #        topologyKey: kubernetes.io/hostname
   image:
-    repo: raycoms/validator
+    repo: galexo/validator
   resources:
     limits:
       cpu: "1"

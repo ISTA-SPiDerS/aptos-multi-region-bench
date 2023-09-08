@@ -1,5 +1,5 @@
 terraform {
-  required_version = "~> 1.3.6"
+  required_version = ">= 1.3.6"
   backend "s3" {
     bucket = "spiders-aptos"
     key = "state/testnet"
@@ -9,12 +9,12 @@ terraform {
 }
 
 locals {
-  region  = "us-west-1"
+  region  = "us-east-1"
   }
 
 
 module "aptos-node" {
-  source = "../../submodules/aptos-core/terraform/aptos-node/aws-node-only"
+  source = "../../submodules/aptos-core/terraform/aptos-node/aws"
 
   manage_via_tf = false # manage via cluster.py tooling instead
 
