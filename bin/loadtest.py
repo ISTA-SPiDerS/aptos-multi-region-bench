@@ -72,12 +72,12 @@ def build_pod_template() -> PodTemplate:
                     # is not the bottleneck
                     "resources": {
                         "requests": {
-                            "cpu": "2",
-                            "memory": "4Gi",
+                            "cpu": "8",
+                            "memory": "10Gi",
                         },
                         "limits": {
-                            "cpu": "2",
-                            "memory": "4Gi",
+                            "cpu": "8",
+                            "memory": "10Gi",
                         },
                     },
                 }
@@ -114,10 +114,10 @@ def build_loadtest_command(
         f"--expected-max-txns={20000 * loadtestConfig['duration']}",
         "--txn-expiration-time-secs=" f"{loadtestConfig['txn_expiration_time_secs']}",
         "--max-transactions-per-account=1",
-	    "--workers-per-endpoint=60",
-        "--accounts-per-worker=250",
+	    "--workers-per-endpoint=50",
+        "--accounts-per-worker=400",
         *(
-            ["--transaction-type", "dexbursty"]
+            ["--transaction-type", "solana"]
             if loadtestConfig["coin_transfer"]
             else [
                 "--transaction-type",

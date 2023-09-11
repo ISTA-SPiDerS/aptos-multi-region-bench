@@ -9,19 +9,19 @@ spec:
     - emit-tx
     - --mint-key=0xE25708D90C72A53B400B27FC7602C4D546C7B7469FA6E12544F0EBFB2F16AE19
     - --chain-id=7
-    - --targets=http://a54bce8db15be44e7b22e4fcd09b3f52-855595928.us-east-1.elb.amazonaws.com:8080
-    - --targets=http://aefb991a604ef4f3a9d0669e3dbea2f3-1796409644.us-east-1.elb.amazonaws.com:8080
-    - --targets=http://aa88f55b0f933477e83bcdf40521a132-697499921.us-east-1.elb.amazonaws.com:8080
-    - --targets=http://ad1df4391322047b08f59ef04aac0d99-1713914390.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://a434c95c5058643588fbd706c9948271-1468350746.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://a9177b1a88169444880c2b494f5fbd07-452971272.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://a49eb409552a84c788262f6d2a6182d9-2055469196.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://aaf43527c2ebb4738ba06dc743d40593-712039011.us-east-1.elb.amazonaws.com:8080
     - --mempool-backlog=25000
-    - --duration=60
-    - --expected-max-txns=1200000
+    - --duration=300
+    - --expected-max-txns=6000000
     - --txn-expiration-time-secs=60
     - --max-transactions-per-account=1
-    - --workers-per-endpoint=60
-    - --accounts-per-worker=250
+    - --workers-per-endpoint=50
+    - --accounts-per-worker=400
     - --transaction-type
-    - dexbursty
+    - solana
     env:
     - name: RUST_BACKTRACE
       value: '1'
@@ -31,9 +31,9 @@ spec:
     name: loadtest
     resources:
       limits:
-        cpu: '2'
-        memory: 4Gi
+        cpu: '8'
+        memory: 10Gi
       requests:
-        cpu: '2'
-        memory: 4Gi
+        cpu: '8'
+        memory: 10Gi
   restartPolicy: Never
