@@ -84,7 +84,7 @@ After all the infrastructure is created, you can use the `cluster.py` utility to
 
 For this to work, update the kubeconfig of the EKS cluster.
 ```
-aws eks update-kubeconfig --region us-west-1 --name aptos-default
+aws eks update-kubeconfig --region us-east-1 --name aptos-default
 ```
 ### Initialize the Network
 

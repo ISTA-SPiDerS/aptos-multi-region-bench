@@ -3,7 +3,7 @@ terraform {
   backend "s3" {
     bucket = "spiders-aptos"
     key = "state/testnet"
-    region = "us-west-1"
+    region = "us-east-1"
 
   }
 }

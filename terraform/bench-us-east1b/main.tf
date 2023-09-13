@@ -1,15 +1,15 @@
 terraform {
-  required_version = "~> 1.3.6"
+  required_version = ">= 1.3.6"
   backend "s3" {
-    bucket = "spiders-aptos"
+    bucket = "spiders-aptos-east"
     key = "state/testnet"
-    region = "us-west-1"
+    region = "us-east-1"
 
   }
 }
 
 locals {
-  region  = "us-west-1"
+  region  = "us-east-1"
   }
 
 
