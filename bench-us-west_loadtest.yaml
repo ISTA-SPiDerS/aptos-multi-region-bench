@@ -25,7 +25,7 @@ spec:
       value: '1'
     - name: REUSE_ACC
       value: '1'
-    image: galexo/tools:17_5_1400
+    image: raycoms/tools:py_13_09
     name: loadtest
     resources:
       limits:
