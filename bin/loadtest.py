@@ -114,8 +114,8 @@ def build_loadtest_command(
         f"--expected-max-txns={20000 * loadtestConfig['duration']}",
         "--txn-expiration-time-secs=" f"{loadtestConfig['txn_expiration_time_secs']}",
         "--max-transactions-per-account=1",
-	    "--workers-per-endpoint=50",
-        "--accounts-per-worker=400",
+	    "--workers-per-endpoint=90",
+        "--accounts-per-worker=300",
         *(
             ["--transaction-type", "solana"]
             if loadtestConfig["coin_transfer"]

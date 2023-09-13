@@ -9,17 +9,17 @@ spec:
     - emit-tx
     - --mint-key=0xE25708D90C72A53B400B27FC7602C4D546C7B7469FA6E12544F0EBFB2F16AE19
     - --chain-id=7
-    - --targets=http://aa19a555a2b364d20b65ba1e00613041-162222270.us-east-1.elb.amazonaws.com:8080
-    - --targets=http://a6ef840f08d2647d1b76b0ba7677881d-22492706.us-east-1.elb.amazonaws.com:8080
-    - --targets=http://a5a72e7699e20493fb437769cbbc335a-1550720837.us-east-1.elb.amazonaws.com:8080
-    - --targets=http://ad018c8a4d7bc48cbb17a517ed7cbf50-1829517346.us-east-1.elb.amazonaws.com:8080
-    - --mempool-backlog=25000
+    - --targets=http://adbd6be7a28554ecfa54325aca7a45ea-1935913171.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://ada038b55773645a1ac629fb9379ae2b-424819234.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://a1b70dbc832cf41feb1ea78a5f8981b1-1732401864.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://a1fcc5c0e35fc44dbbe918249d33c221-82111845.us-east-1.elb.amazonaws.com:8080
+    - --mempool-backlog=5000
     - --duration=300
     - --expected-max-txns=6000000
-    - --txn-expiration-time-secs=60
+    - --txn-expiration-time-secs=90
     - --max-transactions-per-account=1
-    - --workers-per-endpoint=50
-    - --accounts-per-worker=400
+    - --workers-per-endpoint=90
+    - --accounts-per-worker=300
     - --transaction-type
     - solana
     env:
