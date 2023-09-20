@@ -73,11 +73,11 @@ def build_pod_template() -> PodTemplate:
                     "resources": {
                         "requests": {
                             "cpu": "20",
-                            "memory": "32Gi",
+                            "memory": "64Gi",
                         },
                         "limits": {
                             "cpu": "20",
-                            "memory": "32Gi",
+                            "memory": "64Gi",
                         },
                     },
                 }
@@ -114,8 +114,8 @@ def build_loadtest_command(
         f"--expected-max-txns={20000 * loadtestConfig['duration']}",
         "--txn-expiration-time-secs=" f"{loadtestConfig['txn_expiration_time_secs']}",
         "--max-transactions-per-account=1",
-	    "--workers-per-endpoint=1500",
-        "--accounts-per-worker=5",
+	    "--workers-per-endpoint=4000",
+        "--accounts-per-worker=1",
         *(
             ["--transaction-type", "solana"]
             if loadtestConfig["coin_transfer"]

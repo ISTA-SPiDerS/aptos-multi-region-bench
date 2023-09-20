@@ -9,17 +9,17 @@ spec:
     - emit-tx
     - --mint-key=0xE25708D90C72A53B400B27FC7602C4D546C7B7469FA6E12544F0EBFB2F16AE19
     - --chain-id=7
-    - --targets=http://adbd6be7a28554ecfa54325aca7a45ea-1935913171.us-east-1.elb.amazonaws.com:8080
-    - --targets=http://ada038b55773645a1ac629fb9379ae2b-424819234.us-east-1.elb.amazonaws.com:8080
-    - --targets=http://a1b70dbc832cf41feb1ea78a5f8981b1-1732401864.us-east-1.elb.amazonaws.com:8080
-    - --targets=http://a1fcc5c0e35fc44dbbe918249d33c221-82111845.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://a36e587ef00234ad9b08a68569fd6492-652133688.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://af0b065f7e3cd4271987a08b8575d029-1425596417.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://a0876b9026bcb4c1c876aed3792484ca-1437673053.us-east-1.elb.amazonaws.com:8080
+    - --targets=http://ab762dcb368e74783bb87ba62e163b41-819784558.us-east-1.elb.amazonaws.com:8080
     - --mempool-backlog=5000
     - --duration=300
     - --expected-max-txns=6000000
-    - --txn-expiration-time-secs=90
+    - --txn-expiration-time-secs=20
     - --max-transactions-per-account=1
-    - --workers-per-endpoint=90
-    - --accounts-per-worker=300
+    - --workers-per-endpoint=4000
+    - --accounts-per-worker=1
     - --transaction-type
     - solana
     env:
@@ -31,9 +31,9 @@ spec:
     name: loadtest
     resources:
       limits:
-        cpu: '8'
-        memory: 10Gi
+        cpu: '20'
+        memory: 64Gi
       requests:
-        cpu: '8'
-        memory: 10Gi
+        cpu: '20'
+        memory: 64Gi
   restartPolicy: Never
