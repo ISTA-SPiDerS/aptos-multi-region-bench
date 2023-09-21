@@ -56,7 +56,7 @@ def build_pod_template() -> PodTemplate:
             "containers": [
                 {
                     "name": LOADTEST_POD_NAME,
-                    "image": "raycoms/tools:py_13_09",
+                    "image": "raycoms/tools:newpy_21_09",
                     "env": [
                         {
                             "name": "RUST_BACKTRACE",
