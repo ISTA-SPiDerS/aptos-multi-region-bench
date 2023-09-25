@@ -14,7 +14,7 @@ locals {
 
 
 module "aptos-node" {
-  source = "../../submodules/aptos-core/terraform/aptos-node/aws-node-only"
+  source = "../../submodules/aptos-core/terraform/aptos-node/aws"
 
   manage_via_tf = false # manage via cluster.py tooling instead
 

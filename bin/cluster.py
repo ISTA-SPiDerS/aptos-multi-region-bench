@@ -52,7 +52,7 @@ def get_validator_fullnode_host(
                 )
                 raise SystemExit(1)
     missing_validator_host = validator_host == ""
-    missing_fullnode_host = fullnode_host == ""
+    missing_fullnode_host = False
     if missing_validator_host:
         print(f"Failed to get validator host for node: {node_name}")
         print(
