@@ -56,7 +56,7 @@ def build_pod_template() -> PodTemplate:
             "containers": [
                 {
                     "name": LOADTEST_POD_NAME,
-                    "image": "raycoms/tools:newpy_21_09",
+                    "image": "raycoms/tools:newpy_12_10",
                     "env": [
                         {
                             "name": "RUST_BACKTRACE",
@@ -114,10 +114,10 @@ def build_loadtest_command(
         f"--expected-max-txns={20000 * loadtestConfig['duration']}",
         "--txn-expiration-time-secs=" f"{loadtestConfig['txn_expiration_time_secs']}",
         "--max-transactions-per-account=1",
-	    "--workers-per-endpoint=4000",
-        "--accounts-per-worker=1",
+	    "--workers-per-endpoint=6000",
+        "--accounts-per-worker=4",
         *(
-            ["--transaction-type", "solana"]
+            ["--transaction-type", f"{loadtestConfig['workload']}"]
             if loadtestConfig["coin_transfer"]
             else [
                 "--transaction-type",
@@ -252,6 +252,13 @@ def apply_spec(delete=False, only_asia=False) -> None:
     show_default=True,
 )
 @click.option(
+    "--workload",
+    type=str,
+    default="nft",
+    show_default=True,
+)
+
+@click.option(
     "--txn-expiration-time-secs",
     type=int,
     default=60,
@@ -300,6 +307,7 @@ def main(
     coin_transfer: bool,
     only_asia: bool,
     only_within_cluster: bool,
+    workload: str,
 ) -> None:
     """
     Generate a pod spec for load testing.
@@ -328,6 +336,7 @@ def main(
             "workers_per_endpoint": 60,
 	    "txn_expiration_time_secs": txn_expiration_time_secs,
             "coin_transfer": coin_transfer,
+            "workload": workload,
         }
         spec = configure_loadtest(template, config)
         spec_file = f"{cluster.value}_{LOADTEST_POD_SPEC}"

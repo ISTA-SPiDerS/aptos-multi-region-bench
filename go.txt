@@ -1,0 +1,3154 @@
+bla end 0 0 0 0
+bla runblock 754
+bla runwith 16 20
+bla execution 11: 37
+bla execution 15: 38
+bla execution 14: 11
+bla sig: 50
+bla validation: 5
+bla execution 3: 2
+bla execution 1: 1
+bla execution 9: 40
+bla execution 5: 71
+bla execution 6: 61
+bla execution 8: 18
+bla execution 13: 22
+bla execution 4: 25
+bla execution 0: 85
+bla execution 12: 125
+bla execution 2: 110
+bla total time1: 720
+bla thread-time: 10929
+bla execution 7: 22
+bla execution 10: 71
+bla exec: 754
+bla val: 754
+bla sigc: 31
+bla prologue: 753
+bla #txns: 754
+bla runblock 631
+bla runwith 16 20
+bla execution 8: 3
+bla execution 13: 82
+bla execution 10: 121
+bla execution 1: 89
+bla total time1: 686
+bla execution 9: 68
+bla execution 11: 52
+bla execution 15: 0
+bla execution 5: 9
+bla execution 12: 52
+bla execution 4: 0
+bla execution 3: 3
+bla validation: 4
+bla execution 6: 3
+bla execution 0: 1
+bla thread-time: 10551
+bla sig: 35
+bla execution 2: 21
+bla execution 14: 173
+bla execution 7: 18
+bla #txns: 631
+bla exec: 631
+bla val: 631
+bla sigc: 26
+bla prologue: 630
+bla runblock 718
+bla runwith 16 20
+bla execution 13: 12
+bla execution 5: 31
+bla total time1: 662
+bla execution 6: 6
+bla thread-time: 10192
+bla execution 15: 52
+bla execution 7: 117
+bla execution 8: 132
+bla execution 2: 8
+bla execution 1: 64
+bla execution 12: 5
+bla execution 4: 135
+bla execution 14: 1
+bla execution 9: 39
+bla execution 11: 7
+bla validation: 5
+bla execution 3: 40
+bla sig: 41
+bla execution 0: 4
+bla execution 10: 37
+bla exec: 718
+bla prologue: 716
+bla val: 718
+bla sigc: 29
+bla #txns: 718
+bla runblock 718
+bla runwith 16 20
+bla execution 4: 1
+bla execution 15: 3
+bla validation: 5
+bla execution 8: 34
+bla execution 10: 196
+bla thread-time: 10834
+bla execution 7: 2
+bla execution 6: 1
+bla execution 1: 34
+bla execution 12: 64
+bla execution 14: 22
+bla execution 0: 32
+bla total time1: 703
+bla execution 5: 25
+bla execution 11: 21
+bla execution 13: 18
+bla execution 2: 137
+bla sig: 42
+bla execution 3: 32
+bla execution 9: 100
+bla val: 718
+bla prologue: 717
+bla #txns: 718
+bla exec: 718
+bla sigc: 29
+bla runblock 648
+bla runwith 16 20
+bla execution 13: 0
+bla execution 1: 3
+bla execution 2: 2
+bla execution 4: 6
+bla total time1: 49
+bla execution 12: 2
+bla execution 11: 1
+bla execution 3: 0
+bla execution 0: 2
+bla execution 10: 1
+bla execution 9: 1
+bla thread-time: 378
+bla execution 5: 5
+bla execution 7: 1
+bla execution 14: 0
+bla execution 6: 2
+bla validation: 0
+bla execution 15: 1
+bla sig: 39
+bla execution 8: 3
+bla val: 648
+bla prologue: 647
+bla exec: 648
+bla sigc: 26
+bla #txns: 648
+bla runblock 569
+bla runwith 16 20
+bla sig: 32
+bla thread-time: 9177
+bla total time1: 602
+bla execution 5: 1
+bla execution 1: 16
+bla execution 2: 1
+bla execution 4: 43
+bla execution 11: 31
+bla execution 13: 4
+bla execution 9: 63
+bla execution 10: 45
+bla execution 7: 32
+bla execution 3: 2
+bla execution 12: 0
+bla execution 15: 0
+bla execution 6: 189
+bla execution 14: 0
+bla execution 8: 170
+bla validation: 4
+bla #txns: 569
+bla exec: 569
+bla val: 569
+bla prologue: 568
+bla sigc: 23
+bla runblock 506
+bla runwith 16 20
+bla execution 1: 19
+bla validation: 3
+bla execution 3: 33
+bla execution 7: 172
+bla execution 9: 67
+bla sig: 29
+bla execution 8: 1
+bla execution 6: 42
+bla execution 14: 68
+bla thread-time: 9237
+bla execution 15: 0
+bla execution 12: 19
+bla execution 0: 1
+bla execution 4: 36
+bla execution 10: 3
+bla execution 2: 2
+bla execution 11: 2
+bla execution 13: 87
+bla execution 5: 50
+bla total time1: 603
+bla prologue: 505
+bla #txns: 506
+bla sigc: 21
+bla val: 506
+bla exec: 506
+bla runblock 629
+bla runwith 16 20
+bla sig: 35
+bla execution 14: 56
+bla execution 7: 78
+bla validation: 4
+bla execution 10: 77
+bla execution 12: 16
+bla execution 0: 20
+bla execution 6: 231
+bla execution 1: 64
+bla execution 8: 4
+bla execution 11: 2
+bla execution 3: 32
+bla execution 15: 0
+bla execution 9: 96
+bla execution 5: 10
+bla execution 13: 29
+bla total time1: 707
+bla execution 2: 1
+bla thread-time: 10848
+bla execution 4: 0
+bla #txns: 629
+bla exec: 629
+bla prologue: 627
+bla sigc: 26
+bla val: 629
+bla runblock 638
+bla runwith 16 20
+bla execution 13: 0
+bla execution 14: 4
+bla thread-time: 380
+bla execution 2: 1
+bla execution 4: 1
+bla execution 3: 1
+bla execution 12: 0
+bla validation: 0
+bla execution 7: 1
+bla execution 11: 2
+bla execution 15: 3
+bla sig: 36
+bla execution 0: 0
+bla execution 10: 1
+bla execution 9: 2
+bla execution 8: 8
+bla execution 1: 2
+bla total time1: 49
+bla execution 5: 1
+bla execution 6: 4
+bla sigc: 26
+bla #txns: 638
+bla exec: 638
+bla prologue: 637
+bla val: 638
+bla runblock 645
+bla runwith 16 20
+bla execution 13: 2
+bla execution 9: 1
+bla execution 11: 33
+bla execution 10: 0
+bla execution 7: 1
+bla execution 12: 0
+bla execution 0: 1
+bla total time1: 76
+bla thread-time: 806
+bla execution 5: 2
+bla sig: 39
+bla execution 2: 2
+bla execution 1: 1
+bla execution 14: 1
+bla execution 15: 3
+bla execution 6: 0
+bla execution 4: 1
+bla validation: 1
+bla execution 8: 2
+bla #txns: 645
+bla val: 645
+bla exec: 645
+bla prologue: 644
+bla sigc: 26
+bla runblock 652
+bla runwith 16 20
+bla sig: 37
+bla total time1: 603
+bla thread-time: 9220
+bla execution 13: 24
+bla execution 7: 1
+bla execution 15: 99
+bla execution 1: 4
+bla execution 8: 77
+bla execution 2: 43
+bla execution 9: 8
+bla execution 12: 122
+bla execution 5: 70
+bla execution 0: 23
+bla execution 14: 1
+bla execution 3: 26
+bla validation: 4
+bla execution 4: 0
+bla execution 11: 15
+bla execution 6: 69
+bla execution 10: 35
+bla prologue: 651
+bla #txns: 652
+bla exec: 652
+bla val: 652
+bla sigc: 27
+bla runblock 658
+bla runwith 16 20
+bla thread-time: 10343
+bla execution 14: 66
+bla execution 7: 77
+bla execution 0: 52
+bla execution 1: 54
+bla execution 13: 2
+bla execution 4: 96
+bla execution 12: 67
+bla execution 3: 50
+bla execution 11: 20
+bla execution 8: 70
+bla execution 6: 16
+bla total time1: 674
+bla execution 10: 6
+bla execution 15: 28
+bla validation: 4
+bla execution 5: 4
+bla execution 2: 32
+bla sig: 38
+bla execution 9: 43
+bla sigc: 27
+bla val: 658
+bla exec: 658
+bla #txns: 658
+bla prologue: 657
+bla runblock 580
+bla runwith 16 20
+bla execution 12: 11
+bla total time1: 675
+bla validation: 4
+bla execution 8: 112
+bla execution 1: 2
+bla execution 15: 1
+bla execution 4: 7
+bla execution 0: 17
+bla execution 2: 42
+bla execution 9: 31
+bla thread-time: 10388
+bla execution 6: 116
+bla sig: 32
+bla execution 10: 16
+bla execution 11: 135
+bla execution 13: 171
+bla execution 5: 24
+bla execution 7: 1
+bla #txns: 580
+bla prologue: 579
+bla val: 580
+bla exec: 580
+bla sigc: 24
+bla runblock 676
+bla runwith 16 20
+bla execution 6: 31
+bla execution 7: 70
+bla execution 0: 5
+bla execution 8: 2
+bla execution 11: 0
+bla execution 13: 194
+bla sig: 38
+bla execution 3: 10
+bla execution 15: 132
+bla execution 2: 13
+bla execution 4: 2
+bla execution 14: 88
+bla execution 12: 1
+bla validation: 4
+bla total time1: 663
+bla execution 1: 85
+bla execution 9: 30
+bla execution 5: 4
+bla execution 10: 6
+bla thread-time: 10205
+bla val: 676
+bla sigc: 28
+bla exec: 676
+bla #txns: 676
+bla prologue: 675
+bla runblock 714
+bla runwith 16 20
+bla execution 8: 2
+bla sig: 41
+bla execution 14: 4
+bla execution 1: 76
+bla execution 4: 3
+bla thread-time: 11502
+bla execution 10: 108
+bla execution 9: 178
+bla total time1: 744
+bla execution 5: 18
+bla execution 12: 71
+bla execution 6: 23
+bla validation: 5
+bla execution 0: 171
+bla execution 3: 35
+bla execution 11: 25
+bla execution 7: 47
+bla val: 714
+bla #txns: 714
+bla sigc: 29
+bla exec: 714
+bla prologue: 713
+bla runblock 613
+bla runwith 16 20
+bla execution 12: 117
+bla execution 13: 15
+bla execution 11: 1
+bla execution 3: 37
+bla execution 4: 20
+bla execution 2: 118
+bla execution 14: 18
+bla total time1: 636
+bla execution 5: 68
+bla execution 10: 43
+bla execution 0: 28
+bla validation: 4
+bla execution 8: 27
+bla execution 6: 92
+bla thread-time: 9736
+bla execution 1: 61
+bla execution 15: 1
+bla sig: 35
+bla prologue: 612
+bla val: 613
+bla exec: 613
+bla sigc: 25
+bla #txns: 613
+bla runblock 639
+bla runwith 16 20
+bla execution 0: 11
+bla execution 14: 34
+bla execution 11: 33
+bla sig: 39
+bla execution 15: 22
+bla execution 6: 0
+bla execution 13: 29
+bla execution 9: 181
+bla execution 4: 74
+bla execution 2: 27
+bla execution 10: 88
+bla execution 1: 1
+bla execution 8: 24
+bla execution 5: 21
+bla execution 12: 11
+bla thread-time: 9765
+bla execution 3: 48
+bla total time1: 636
+bla validation: 4
+bla execution 7: 41
+bla prologue: 638
+bla sigc: 26
+bla val: 639
+bla exec: 639
+bla #txns: 639
+bla runblock 618
+bla runwith 16 20
+bla execution 4: 26
+bla execution 10: 23
+bla execution 14: 38
+bla execution 1: 54
+bla total time1: 693
+bla execution 2: 55
+bla sig: 36
+bla execution 0: 1
+bla execution 3: 30
+bla execution 8: 65
+bla execution 6: 154
+bla thread-time: 10667
+bla execution 7: 210
+bla execution 13: 12
+bla execution 5: 13
+bla execution 15: 10
+bla execution 12: 1
+bla validation: 4
+bla execution 9: 14
+bla #txns: 618
+bla exec: 618
+bla val: 618
+bla prologue: 617
+bla sigc: 25
+bla runblock 782
+bla runwith 16 20
+bla execution 5: 123
+bla execution 13: 98
+bla execution 14: 8
+bla thread-time: 11335
+bla execution 10: 15
+bla sig: 47
+bla execution 4: 43
+bla execution 3: 74
+bla execution 11: 79
+bla execution 15: 56
+bla execution 12: 42
+bla execution 0: 33
+bla execution 1: 31
+bla total time1: 735
+bla validation: 6
+bla execution 9: 55
+bla execution 8: 13
+bla execution 6: 70
+bla execution 7: 29
+bla execution 2: 14
+bla prologue: 781
+bla #txns: 782
+bla exec: 782
+bla sigc: 32
+bla val: 782
+bla runblock 604
+bla runwith 16 20
+bla execution 0: 41
+bla execution 13: 16
+bla execution 3: 3
+bla execution 7: 165
+bla execution 6: 32
+bla execution 15: 2
+bla execution 12: 13
+bla execution 2: 34
+bla sig: 34
+bla execution 14: 55
+bla execution 4: 13
+bla validation: 4
+bla execution 5: 64
+bla execution 8: 98
+bla execution 10: 20
+bla execution 11: 99
+bla execution 9: 5
+bla total time1: 630
+bla thread-time: 9622
+bla execution 1: 11
+bla exec: 604
+bla val: 604
+bla prologue: 603
+bla sigc: 25
+bla #txns: 604
+bla runblock 593
+bla runwith 16 20
+bla execution 10: 22
+bla execution 0: 0
+bla execution 9: 217
+bla execution 15: 3
+bla execution 14: 1
+bla validation: 4
+bla total time1: 614
+bla execution 12: 9
+bla execution 2: 49
+bla execution 7: 109
+bla execution 4: 46
+bla execution 8: 13
+bla execution 3: 31
+bla execution 11: 0
+bla execution 6: 11
+bla sig: 37
+bla execution 1: 73
+bla execution 5: 7
+bla execution 13: 39
+bla thread-time: 9421
+bla sigc: 24
+bla #txns: 593
+bla exec: 593
+bla val: 593
+bla prologue: 592
+bla runblock 690
+bla runwith 16 20
+bla execution 3: 1
+bla sig: 40
+bla execution 8: 18
+bla execution 15: 12
+bla validation: 4
+bla thread-time: 10804
+bla execution 7: 2
+bla execution 2: 120
+bla execution 12: 49
+bla execution 11: 13
+bla execution 0: 107
+bla execution 10: 30
+bla execution 13: 37
+bla execution 6: 156
+bla total time1: 702
+bla execution 4: 121
+bla execution 14: 9
+bla execution 9: 14
+bla execution 1: 20
+bla execution 5: 2
+bla val: 690
+bla prologue: 689
+bla #txns: 690
+bla sigc: 28
+bla exec: 690
+bla runblock 629
+bla runwith 16 20
+bla total time1: 106
+bla execution 11: 3
+bla execution 10: 1
+bla execution 1: 4
+bla execution 13: 3
+bla execution 7: 1
+bla execution 8: 1
+bla execution 0: 2
+bla execution 12: 1
+bla sig: 36
+bla execution 5: 2
+bla execution 14: 63
+bla execution 6: 1
+bla execution 15: 0
+bla execution 3: 1
+bla execution 4: 8
+bla execution 2: 1
+bla thread-time: 1290
+bla validation: 1
+bla execution 9: 3
+bla #txns: 629
+bla prologue: 628
+bla sigc: 26
+bla val: 629
+bla exec: 629
+bla runblock 689
+bla runwith 16 20
+bla execution 5: 28
+bla execution 15: 108
+bla execution 8: 3
+bla execution 11: 93
+bla execution 2: 40
+bla execution 9: 18
+bla sig: 38
+bla execution 12: 18
+bla execution 4: 3
+bla execution 3: 37
+bla execution 10: 4
+bla execution 0: 70
+bla thread-time: 9525
+bla total time1: 622
+bla execution 6: 102
+bla execution 14: 61
+bla execution 13: 60
+bla execution 7: 2
+bla validation: 4
+bla execution 1: 3
+bla #txns: 689
+bla val: 689
+bla prologue: 688
+bla sigc: 28
+bla exec: 689
+bla runblock 584
+bla runwith 16 20
+bla execution 14: 3
+bla execution 0: 30
+bla execution 10: 69
+bla execution 13: 3
+bla execution 3: 39
+bla execution 11: 1
+bla validation: 4
+bla execution 15: 60
+bla execution 5: 45
+bla sig: 33
+bla execution 1: 3
+bla execution 9: 59
+bla execution 8: 138
+bla execution 12: 90
+bla execution 6: 31
+bla execution 7: 14
+bla total time1: 606
+bla thread-time: 9263
+bla execution 4: 19
+bla execution 2: 11
+bla sigc: 24
+bla #txns: 584
+bla exec: 584
+bla val: 584
+bla prologue: 583
+bla runblock 716
+bla runwith 16 20
+bla execution 1: 52
+bla execution 7: 9
+bla execution 2: 63
+bla execution 15: 4
+bla thread-time: 10393
+bla execution 13: 106
+bla execution 8: 41
+bla execution 9: 40
+bla sig: 47
+bla execution 3: 55
+bla validation: 5
+bla execution 10: 2
+bla execution 5: 75
+bla execution 12: 58
+bla execution 14: 13
+bla execution 0: 34
+bla execution 6: 6
+bla execution 11: 137
+bla total time1: 676
+bla prologue: 715
+bla sigc: 29
+bla val: 716
+bla exec: 716
+bla #txns: 716
+bla runblock 632
+bla runwith 16 20
+bla sig: 37
+bla execution 8: 56
+bla execution 5: 40
+bla execution 0: 32
+bla thread-time: 10455
+bla execution 14: 1
+bla execution 13: 3
+bla execution 9: 48
+bla execution 1: 47
+bla execution 6: 2
+bla total time1: 684
+bla validation: 4
+bla execution 3: 66
+bla execution 7: 86
+bla execution 12: 57
+bla execution 2: 14
+bla execution 4: 2
+bla execution 10: 179
+bla execution 15: 36
+bla execution 11: 21
+bla exec: 632
+bla sigc: 26
+bla #txns: 632
+bla prologue: 631
+bla val: 632
+bla runblock 647
+bla runwith 16 20
+bla thread-time: 10338
+bla execution 1: 7
+bla execution 15: 3
+bla execution 6: 74
+bla execution 10: 2
+bla execution 0: 8
+bla execution 4: 29
+bla execution 3: 98
+bla validation: 4
+bla total time1: 672
+bla execution 11: 1
+bla execution 12: 68
+bla execution 5: 13
+bla execution 8: 124
+bla execution 2: 93
+bla execution 9: 62
+bla sig: 42
+bla execution 13: 60
+bla execution 7: 50
+bla execution 14: 2
+bla sigc: 26
+bla val: 647
+bla exec: 647
+bla #txns: 647
+bla prologue: 645
+bla runblock 750
+bla runwith 16 20
+bla execution 4: 39
+bla sig: 49
+bla execution 6: 1
+bla thread-time: 11289
+bla execution 0: 6
+bla validation: 5
+bla execution 10: 89
+bla execution 8: 157
+bla execution 12: 31
+bla execution 7: 32
+bla execution 13: 29
+bla execution 2: 35
+bla execution 3: 37
+bla execution 11: 100
+bla execution 14: 5
+bla total time1: 732
+bla execution 5: 1
+bla execution 1: 131
+bla execution 15: 15
+bla execution 9: 46
+bla val: 750
+bla exec: 750
+bla sigc: 31
+bla #txns: 750
+bla prologue: 749
+bla runblock 605
+bla runwith 16 20
+bla execution 5: 5
+bla sig: 34
+bla execution 11: 44
+bla execution 4: 0
+bla execution 3: 0
+bla execution 9: 96
+bla execution 0: 26
+bla execution 14: 23
+bla validation: 4
+bla thread-time: 9805
+bla execution 2: 90
+bla execution 1: 60
+bla execution 12: 50
+bla execution 10: 62
+bla execution 13: 69
+bla execution 6: 52
+bla total time1: 639
+bla execution 8: 1
+bla execution 7: 67
+bla val: 605
+bla sigc: 25
+bla prologue: 604
+bla exec: 605
+bla #txns: 605
+bla runblock 661
+bla runwith 16 20
+bla execution 12: 163
+bla execution 1: 4
+bla execution 9: 4
+bla execution 15: 124
+bla execution 2: 48
+bla execution 5: 59
+bla execution 4: 47
+bla execution 3: 56
+bla execution 14: 15
+bla execution 13: 33
+bla thread-time: 10431
+bla execution 0: 77
+bla execution 10: 1
+bla sig: 43
+bla total time1: 679
+bla validation: 4
+bla execution 7: 26
+bla execution 11: 28
+bla execution 6: 27
+bla execution 8: 1
+bla prologue: 660
+bla #txns: 661
+bla val: 661
+bla exec: 661
+bla sigc: 27
+bla runblock 621
+bla runwith 16 20
+bla execution 2: 90
+bla execution 13: 5
+bla execution 1: 16
+bla execution 9: 64
+bla validation: 4
+bla sig: 35
+bla execution 14: 189
+bla thread-time: 10279
+bla execution 6: 121
+bla execution 8: 12
+bla execution 12: 5
+bla execution 11: 0
+bla execution 4: 0
+bla execution 10: 20
+bla execution 3: 42
+bla execution 0: 54
+bla execution 15: 19
+bla total time1: 668
+bla execution 7: 30
+bla execution 5: 6
+bla exec: 621
+bla sigc: 25
+bla prologue: 620
+bla #txns: 621
+bla val: 621
+bla runblock 638
+bla runwith 16 20
+bla execution 6: 30
+bla execution 8: 21
+bla execution 13: 8
+bla sig: 36
+bla execution 3: 65
+bla execution 15: 30
+bla execution 1: 83
+bla execution 5: 26
+bla execution 14: 58
+bla execution 11: 27
+bla total time1: 662
+bla execution 10: 68
+bla execution 2: 56
+bla execution 9: 0
+bla execution 0: 1
+bla validation: 4
+bla execution 7: 107
+bla execution 12: 77
+bla thread-time: 10117
+bla execution 4: 20
+bla exec: 638
+bla prologue: 637
+bla val: 638
+bla #txns: 638
+bla sigc: 26
+bla runblock 674
+bla runwith 16 20
+bla execution 1: 9
+bla execution 7: 176
+bla total time1: 658
+bla sig: 38
+bla execution 6: 9
+bla execution 14: 2
+bla execution 11: 14
+bla execution 4: 75
+bla execution 13: 4
+bla execution 0: 27
+bla execution 15: 36
+bla execution 9: 77
+bla execution 10: 62
+bla execution 5: 9
+bla execution 12: 22
+bla execution 8: 91
+bla execution 2: 53
+bla execution 3: 0
+bla thread-time: 10090
+bla validation: 4
+bla exec: 674
+bla prologue: 673
+bla #txns: 674
+bla sigc: 27
+bla val: 674
+bla runblock 681
+bla runwith 16 20
+bla execution 6: 1
+bla execution 13: 49
+bla execution 9: 37
+bla execution 5: 9
+bla execution 1: 26
+bla thread-time: 10745
+bla total time1: 699
+bla validation: 4
+bla execution 10: 212
+bla execution 7: 65
+bla execution 3: 6
+bla execution 11: 36
+bla execution 12: 42
+bla execution 0: 2
+bla sig: 39
+bla execution 8: 11
+bla execution 4: 35
+bla execution 14: 23
+bla execution 15: 23
+bla execution 2: 143
+bla prologue: 680
+bla exec: 681
+bla sigc: 28
+bla val: 681
+bla #txns: 681
+bla runblock 668
+bla runwith 16 20
+bla validation: 4
+bla execution 15: 34
+bla execution 4: 2
+bla thread-time: 10452
+bla execution 3: 1
+bla execution 5: 61
+bla execution 7: 6
+bla sig: 38
+bla execution 14: 120
+bla total time1: 679
+bla execution 0: 105
+bla execution 8: 52
+bla execution 11: 10
+bla execution 10: 17
+bla execution 13: 2
+bla execution 2: 31
+bla execution 9: 65
+bla execution 12: 23
+bla execution 6: 124
+bla execution 1: 38
+bla #txns: 668
+bla exec: 668
+bla prologue: 667
+bla sigc: 27
+bla val: 668
+bla runblock 643
+bla runwith 16 20
+bla execution 14: 69
+bla sig: 38
+bla thread-time: 9890
+bla execution 5: 12
+bla execution 3: 7
+bla execution 0: 49
+bla execution 13: 86
+bla total time1: 643
+bla execution 11: 55
+bla execution 15: 5
+bla execution 4: 19
+bla execution 8: 54
+bla execution 9: 55
+bla validation: 4
+bla execution 10: 86
+bla execution 1: 21
+bla execution 6: 21
+bla execution 7: 0
+bla execution 12: 94
+bla execution 2: 32
+bla #txns: 643
+bla exec: 643
+bla prologue: 642
+bla sigc: 26
+bla val: 643
+bla runblock 656
+bla runwith 16 20
+bla execution 0: 50
+bla execution 1: 46
+bla execution 3: 108
+bla execution 5: 112
+bla execution 12: 1
+bla execution 9: 10
+bla validation: 4
+bla total time1: 659
+bla execution 8: 62
+bla execution 2: 49
+bla execution 11: 4
+bla execution 10: 34
+bla execution 4: 33
+bla execution 14: 15
+bla execution 7: 19
+bla sig: 36
+bla execution 15: 67
+bla thread-time: 10108
+bla execution 13: 34
+bla execution 6: 15
+bla sigc: 27
+bla #txns: 656
+bla prologue: 655
+bla val: 656
+bla exec: 656
+bla runblock 627
+bla runwith 16 20
+bla execution 2: 40
+bla total time1: 652
+bla execution 5: 192
+bla execution 15: 13
+bla execution 7: 21
+bla execution 12: 26
+bla execution 14: 5
+bla execution 13: 13
+bla sig: 35
+bla execution 8: 94
+bla execution 0: 119
+bla execution 1: 43
+bla execution 4: 1
+bla validation: 4
+bla execution 3: 55
+bla execution 6: 30
+bla execution 10: 11
+bla thread-time: 10024
+bla execution 9: 3
+bla execution 11: 0
+bla #txns: 627
+bla sigc: 26
+bla prologue: 626
+bla exec: 627
+bla val: 627
+bla runblock 694
+bla runwith 16 20
+bla thread-time: 10868
+bla execution 5: 63
+bla execution 0: 32
+bla execution 2: 44
+bla execution 4: 99
+bla execution 12: 134
+bla execution 7: 6
+bla execution 10: 17
+bla execution 14: 35
+bla execution 15: 36
+bla execution 8: 24
+bla execution 3: 30
+bla execution 1: 96
+bla execution 9: 1
+bla total time1: 705
+bla execution 11: 62
+bla sig: 45
+bla execution 13: 43
+bla execution 6: 1
+bla validation: 4
+bla val: 694
+bla sigc: 28
+bla exec: 694
+bla prologue: 693
+bla #txns: 694
+bla runblock 695
+bla runwith 16 20
+bla execution 11: 49
+bla thread-time: 10546
+bla execution 0: 64
+bla execution 15: 76
+bla execution 12: 9
+bla execution 3: 24
+bla total time1: 685
+bla execution 8: 27
+bla execution 14: 38
+bla execution 7: 73
+bla sig: 40
+bla validation: 5
+bla execution 4: 139
+bla execution 10: 31
+bla execution 5: 109
+bla execution 6: 16
+bla execution 1: 8
+bla execution 13: 6
+bla execution 9: 3
+bla execution 2: 34
+bla exec: 695
+bla sigc: 28
+bla prologue: 694
+bla val: 695
+bla #txns: 695
+bla runblock 633
+bla runwith 16 20
+bla thread-time: 9601
+bla execution 14: 23
+bla total time1: 629
+bla execution 6: 40
+bla execution 4: 53
+bla execution 3: 137
+bla execution 15: 26
+bla execution 0: 39
+bla execution 13: 52
+bla execution 7: 177
+bla execution 10: 22
+bla sig: 37
+bla execution 11: 0
+bla execution 9: 36
+bla execution 1: 14
+bla validation: 4
+bla execution 8: 1
+bla execution 12: 5
+bla execution 5: 14
+bla prologue: 632
+bla exec: 633
+bla val: 633
+bla #txns: 633
+bla sigc: 26
+bla runblock 581
+bla runwith 16 20
+bla validation: 4
+bla total time1: 628
+bla execution 8: 91
+bla sig: 33
+bla execution 13: 34
+bla execution 5: 1
+bla execution 3: 4
+bla execution 14: 34
+bla execution 6: 4
+bla execution 1: 131
+bla thread-time: 9588
+bla execution 4: 2
+bla execution 11: 30
+bla execution 9: 0
+bla execution 7: 13
+bla execution 12: 0
+bla execution 10: 177
+bla execution 0: 114
+bla execution 2: 18
+bla execution 15: 1
+bla val: 581
+bla sigc: 24
+bla #txns: 581
+bla exec: 581
+bla prologue: 580
+bla runblock 612
+bla runwith 16 20
+bla validation: 4
+bla execution 9: 2
+bla execution 2: 105
+bla execution 5: 45
+bla execution 13: 66
+bla execution 11: 8
+bla execution 7: 23
+bla execution 10: 66
+bla execution 14: 5
+bla execution 12: 28
+bla execution 8: 5
+bla execution 0: 86
+bla execution 3: 45
+bla execution 6: 1
+bla thread-time: 10543
+bla total time1: 688
+bla execution 15: 8
+bla execution 1: 158
+bla sig: 34
+bla execution 4: 53
+bla sigc: 25
+bla val: 612
+bla #txns: 612
+bla exec: 612
+bla prologue: 611
+bla runblock 657
+bla runwith 16 20
+bla execution 8: 3
+bla execution 11: 2
+bla execution 6: 5
+bla execution 1: 4
+bla execution 15: 81
+bla total time1: 720
+bla execution 7: 44
+bla execution 4: 11
+bla execution 12: 85
+bla execution 13: 128
+bla execution 5: 177
+bla execution 14: 2
+bla execution 2: 92
+bla thread-time: 11106
+bla execution 0: 78
+bla validation: 4
+bla execution 3: 8
+bla sig: 38
+bla execution 10: 30
+bla sigc: 27
+bla val: 657
+bla exec: 657
+bla prologue: 656
+bla #txns: 657
+bla runblock 595
+bla runwith 16 20
+bla execution 6: 41
+bla execution 11: 23
+bla total time1: 621
+bla thread-time: 9505
+bla execution 0: 0
+bla execution 9: 59
+bla execution 2: 4
+bla execution 14: 70
+bla sig: 35
+bla execution 13: 11
+bla execution 8: 15
+bla execution 1: 37
+bla execution 3: 64
+bla execution 10: 106
+bla execution 5: 6
+bla execution 15: 3
+bla execution 4: 110
+bla validation: 4
+bla execution 7: 44
+bla execution 12: 41
+bla sigc: 24
+bla val: 595
+bla prologue: 594
+bla #txns: 595
+bla exec: 595
+bla runblock 648
+bla runwith 16 20
+bla execution 1: 10
+bla execution 9: 5
+bla sig: 38
+bla validation: 4
+bla execution 12: 20
+bla execution 0: 69
+bla execution 5: 25
+bla execution 14: 11
+bla total time1: 658
+bla thread-time: 10086
+bla execution 15: 22
+bla execution 4: 25
+bla execution 6: 53
+bla execution 10: 3
+bla execution 11: 97
+bla execution 8: 39
+bla execution 2: 35
+bla execution 7: 17
+bla execution 13: 165
+bla execution 3: 86
+bla val: 648
+bla prologue: 647
+bla #txns: 648
+bla sigc: 26
+bla exec: 648
+bla runblock 599
+bla runwith 16 20
+bla execution 6: 43
+bla execution 3: 1
+bla total time1: 635
+bla execution 10: 1
+bla execution 9: 1
+bla execution 0: 148
+bla execution 13: 5
+bla execution 11: 5
+bla execution 4: 2
+bla validation: 4
+bla execution 7: 74
+bla execution 14: 38
+bla execution 15: 194
+bla execution 8: 49
+bla thread-time: 9688
+bla sig: 34
+bla execution 2: 1
+bla execution 12: 82
+bla execution 1: 1
+bla val: 599
+bla prologue: 598
+bla #txns: 599
+bla sigc: 24
+bla exec: 599
+bla runblock 650
+bla runwith 16 20
+bla execution 15: 1
+bla thread-time: 10379
+bla execution 5: 105
+bla execution 12: 1
+bla execution 9: 22
+bla execution 0: 58
+bla execution 4: 82
+bla execution 7: 33
+bla execution 6: 36
+bla execution 14: 18
+bla sig: 40
+bla execution 2: 1
+bla execution 1: 43
+bla execution 10: 39
+bla validation: 4
+bla execution 11: 81
+bla total time1: 674
+bla execution 13: 77
+bla execution 3: 91
+bla sigc: 27
+bla #txns: 650
+bla prologue: 649
+bla exec: 650
+bla val: 650
+bla runblock 637
+bla runwith 16 20
+bla sig: 36
+bla execution 7: 67
+bla execution 5: 0
+bla execution 1: 69
+bla execution 10: 8
+bla execution 12: 124
+bla execution 0: 18
+bla execution 14: 4
+bla execution 4: 91
+bla execution 9: 27
+bla execution 11: 169
+bla execution 2: 1
+bla validation: 4
+bla total time1: 675
+bla execution 3: 2
+bla execution 8: 61
+bla thread-time: 10383
+bla execution 6: 16
+bla execution 13: 12
+bla execution 15: 3
+bla val: 637
+bla sigc: 26
+bla prologue: 636
+bla #txns: 637
+bla exec: 637
+bla runblock 678
+bla runwith 16 20
+bla thread-time: 9921
+bla validation: 4
+bla execution 15: 77
+bla execution 6: 129
+bla execution 9: 10
+bla execution 14: 1
+bla execution 2: 31
+bla execution 1: 42
+bla total time1: 647
+bla sig: 72
+bla execution 8: 118
+bla execution 7: 7
+bla execution 13: 3
+bla execution 0: 15
+bla execution 4: 2
+bla execution 5: 49
+bla execution 12: 38
+bla execution 11: 10
+bla execution 10: 120
+bla execution 3: 1
+bla val: 678
+bla #txns: 678
+bla sigc: 28
+bla exec: 678
+bla prologue: 677
+bla runblock 684
+bla runwith 16 20
+bla validation: 4
+bla execution 14: 1
+bla execution 6: 3
+bla execution 0: 76
+bla execution 11: 23
+bla execution 10: 3
+bla execution 3: 2
+bla execution 2: 2
+bla thread-time: 10292
+bla execution 9: 272
+bla total time1: 671
+bla execution 4: 25
+bla execution 7: 12
+bla execution 1: 14
+bla execution 8: 175
+bla execution 13: 1
+bla execution 12: 25
+bla sig: 39
+bla execution 15: 25
+bla execution 5: 19
+bla sigc: 28
+bla exec: 684
+bla prologue: 683
+bla val: 684
+bla #txns: 684
+bla runblock 600
+bla runwith 16 20
+bla total time1: 607
+bla sig: 34
+bla execution 4: 83
+bla execution 11: 3
+bla execution 12: 74
+bla execution 3: 4
+bla execution 0: 18
+bla execution 7: 15
+bla execution 14: 1
+bla validation: 4
+bla execution 8: 5
+bla execution 15: 30
+bla execution 6: 82
+bla execution 1: 112
+bla execution 9: 28
+bla execution 5: 1
+bla execution 2: 63
+bla thread-time: 9269
+bla execution 13: 51
+bla execution 10: 46
+bla val: 600
+bla exec: 600
+bla prologue: 599
+bla sigc: 25
+bla #txns: 600
+bla runblock 573
+bla runwith 16 20
+bla thread-time: 9294
+bla sig: 32
+bla execution 15: 2
+bla execution 2: 96
+bla execution 4: 77
+bla execution 1: 48
+bla execution 3: 1
+bla validation: 3
+bla execution 0: 136
+bla execution 7: 32
+bla execution 6: 23
+bla total time1: 607
+bla execution 5: 48
+bla execution 10: 4
+bla execution 9: 1
+bla execution 11: 4
+bla execution 12: 32
+bla execution 8: 99
+bla execution 14: 0
+bla sigc: 23
+bla prologue: 572
+bla val: 573
+bla #txns: 573
+bla exec: 573
+bla runblock 662
+bla runwith 16 20
+bla validation: 4
+bla execution 1: 13
+bla execution 6: 16
+bla execution 0: 24
+bla execution 5: 85
+bla execution 2: 19
+bla execution 9: 0
+bla execution 13: 8
+bla execution 8: 76
+bla sig: 37
+bla thread-time: 10008
+bla execution 12: 70
+bla execution 14: 149
+bla execution 11: 44
+bla execution 3: 40
+bla total time1: 651
+bla execution 4: 40
+bla execution 7: 15
+bla execution 15: 8
+bla execution 10: 58
+bla #txns: 662
+bla sigc: 27
+bla prologue: 661
+bla exec: 662
+bla val: 662
+bla runblock 649
+bla runwith 16 20
+bla execution 13: 71
+bla execution 12: 24
+bla thread-time: 9980
+bla execution 7: 3
+bla total time1: 652
+bla validation: 4
+bla execution 14: 52
+bla execution 9: 4
+bla execution 2: 88
+bla execution 4: 4
+bla execution 11: 29
+bla execution 15: 57
+bla execution 3: 24
+bla execution 10: 84
+bla execution 1: 129
+bla execution 8: 10
+bla execution 5: 81
+bla sig: 56
+bla execution 0: 3
+bla execution 6: 10
+bla prologue: 648
+bla exec: 649
+bla val: 649
+bla #txns: 649
+bla sigc: 26
+bla runblock 654
+bla runwith 16 20
+bla execution 4: 25
+bla execution 7: 42
+bla total time1: 662
+bla execution 15: 17
+bla sig: 38
+bla execution 6: 95
+bla execution 8: 146
+bla execution 5: 45
+bla execution 1: 1
+bla execution 3: 10
+bla execution 10: 51
+bla thread-time: 10172
+bla execution 0: 66
+bla execution 13: 63
+bla execution 14: 6
+bla validation: 4
+bla execution 11: 8
+bla execution 12: 22
+bla execution 2: 66
+bla prologue: 653
+bla exec: 654
+bla val: 654
+bla sigc: 27
+bla #txns: 654
+bla runblock 692
+bla runwith 16 20
+bla execution 15: 6
+bla execution 9: 30
+bla execution 14: 27
+bla execution 2: 25
+bla execution 3: 99
+bla thread-time: 10004
+bla execution 10: 14
+bla validation: 4
+bla total time1: 651
+bla execution 13: 69
+bla sig: 40
+bla execution 12: 57
+bla execution 11: 69
+bla execution 6: 2
+bla execution 8: 39
+bla execution 7: 4
+bla execution 4: 70
+bla execution 1: 91
+bla execution 0: 86
+bla sigc: 28
+bla exec: 692
+bla #txns: 692
+bla val: 692
+bla prologue: 691
+bla runblock 618
+bla runwith 16 20
+bla validation: 4
+bla execution 3: 30
+bla execution 12: 10
+bla execution 14: 7
+bla execution 10: 54
+bla execution 13: 7
+bla execution 2: 2
+bla execution 9: 5
+bla total time1: 568
+bla execution 8: 70
+bla sig: 35
+bla execution 5: 3
+bla execution 11: 88
+bla execution 7: 85
+bla execution 15: 4
+bla execution 0: 59
+bla execution 1: 89
+bla thread-time: 8645
+bla execution 4: 1
+bla execution 6: 63
+bla val: 618
+bla sigc: 25
+bla exec: 618
+bla #txns: 618
+bla prologue: 617
+bla runblock 659
+bla runwith 16 20
+bla result: 2635 0 0 0 0
+bla endx 0
+bla blocklen: 0
+bla execution 15: 28
+bla execution 7: 57
+bla execution 5: 42
+bla execution 14: 19
+bla execution 6: 67
+bla execution 10: 27
+bla thread-time: 10656
+bla execution 9: 19
+bla execution 13: 32
+bla execution 11: 185
+bla execution 4: 1
+bla total time1: 692
+bla execution 12: 1
+bla execution 0: 45
+bla execution 2: 57
+bla execution 8: 72
+bla sig: 38
+bla execution 1: 17
+bla execution 3: 32
+bla validation: 4
+bla exec: 659
+bla val: 659
+bla prologue: 658
+bla #txns: 659
+bla sigc: 27
+bla end 89 89 40 112
+bla runblock 632
+bla runwith 16 20
+bla end 979 979 979 1024
+bla sig: 35
+bla execution 5: 67
+bla execution 2: 1
+bla execution 9: 39
+bla execution 12: 77
+bla execution 6: 16
+bla execution 1: 39
+bla execution 11: 7
+bla execution 15: 72
+bla execution 10: 25
+bla execution 7: 28
+bla execution 8: 40
+bla execution 14: 81
+bla thread-time: 10036
+bla validation: 4
+bla execution 13: 13
+bla total time1: 959
+bla execution 3: 9
+bla execution 4: 127
+bla execution 0: 46
+bla exec: 632
+bla val: 632
+bla prologue: 631
+bla #txns: 632
+bla sigc: 26
+bla result: 0 1184 0 2635 0
+bla endx 10
+bla blocklen: 1137
+bla end 295 295 294 1024
+bla end 145 145 145 475
+bla runblock 648
+bla runwith 16 20
+bla result: 0 1498 0 1498 0
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla clear cache 821
+bla endx 11
+bla blocklen: 677
+bla execution 2: 59
+bla execution 4: 17
+bla sig: 37
+bla execution 7: 28
+bla execution 13: 27
+bla execution 11: 0
+bla execution 1: 10
+bla execution 5: 1
+bla execution 6: 38
+bla execution 8: 4
+bla execution 0: 0
+bla execution 3: 5
+bla thread-time: 10322
+bla total time1: 671
+bla execution 10: 86
+bla execution 15: 35
+bla execution 14: 135
+bla execution 9: 89
+bla validation: 4
+bla execution 12: 134
+bla sigc: 26
+bla val: 648
+bla #txns: 648
+bla prologue: 647
+bla exec: 648
+bla runblock 578
+bla runwith 16 20
+bla execution 3: 55
+bla total time1: 689
+bla sig: 33
+bla execution 5: 187
+bla execution 9: 8
+bla execution 15: 36
+bla execution 0: 80
+bla thread-time: 10604
+bla execution 1: 18
+bla execution 6: 17
+bla execution 7: 77
+bla execution 11: 4
+bla validation: 35
+bla execution 4: 8
+bla execution 12: 26
+bla execution 8: 7
+bla execution 2: 123
+bla execution 13: 34
+bla execution 10: 21
+bla prologue: 577
+bla val: 578
+bla exec: 578
+bla sigc: 24
+bla #txns: 578
+bla runblock 685
+bla runwith 16 20
+bla execution 5: 0
+bla sig: 39
+bla execution 15: 58
+bla execution 2: 66
+bla execution 4: 3
+bla execution 14: 11
+bla execution 7: 7
+bla execution 6: 64
+bla execution 11: 97
+bla execution 0: 62
+bla execution 8: 109
+bla execution 12: 23
+bla execution 3: 14
+bla total time1: 689
+bla thread-time: 10596
+bla validation: 4
+bla execution 1: 1
+bla execution 13: 90
+bla execution 10: 23
+bla execution 9: 84
+bla val: 685
+bla exec: 685
+bla sigc: 28
+bla prologue: 683
+bla #txns: 685
+bla runblock 622
+bla runwith 16 20
+bla execution 7: 71
+bla execution 9: 38
+bla execution 10: 110
+bla execution 2: 4
+bla execution 5: 1
+bla thread-time: 9901
+bla execution 13: 74
+bla execution 3: 1
+bla execution 11: 33
+bla execution 6: 8
+bla execution 12: 22
+bla total time1: 646
+bla validation: 4
+bla execution 15: 102
+bla execution 1: 30
+bla execution 4: 88
+bla execution 0: 3
+bla execution 14: 77
+bla sig: 35
+bla execution 8: 1
+bla sigc: 25
+bla val: 622
+bla prologue: 621
+bla #txns: 622
+bla exec: 622
+bla runblock 630
+bla runwith 16 20
+bla execution 8: 40
+bla execution 13: 58
+bla execution 9: 8
+bla execution 15: 1
+bla execution 4: 10
+bla total time1: 679
+bla execution 5: 143
+bla execution 11: 1
+bla execution 3: 4
+bla execution 2: 154
+bla validation: 4
+bla thread-time: 10436
+bla execution 14: 40
+bla execution 10: 92
+bla execution 0: 17
+bla execution 6: 7
+bla sig: 36
+bla execution 7: 35
+bla execution 12: 42
+bla execution 1: 47
+bla val: 630
+bla prologue: 629
+bla sigc: 26
+bla #txns: 630
+bla exec: 630
+bla runblock 661
+bla runwith 16 20
+bla execution 4: 13
+bla validation: 4
+bla thread-time: 10454
+bla execution 10: 28
+bla execution 3: 142
+bla execution 11: 20
+bla execution 12: 86
+bla execution 15: 57
+bla execution 2: 1
+bla execution 8: 57
+bla execution 14: 3
+bla execution 5: 111
+bla execution 13: 3
+bla sig: 38
+bla total time1: 679
+bla execution 7: 58
+bla execution 0: 83
+bla execution 6: 1
+bla execution 1: 31
+bla sigc: 27
+bla #txns: 661
+bla val: 661
+bla exec: 661
+bla prologue: 660
+bla runblock 630
+bla runwith 16 20
+bla sig: 35
+bla validation: 4
+bla execution 9: 159
+bla total time1: 660
+bla thread-time: 10144
+bla execution 13: 1
+bla execution 1: 85
+bla execution 7: 2
+bla execution 15: 1
+bla execution 14: 5
+bla execution 5: 29
+bla execution 2: 18
+bla execution 0: 96
+bla execution 11: 12
+bla execution 8: 1
+bla execution 6: 0
+bla execution 3: 100
+bla execution 12: 88
+bla execution 10: 13
+bla execution 4: 53
+bla exec: 630
+bla val: 630
+bla sigc: 26
+bla prologue: 629
+bla #txns: 630
+bla runblock 586
+bla runwith 16 20
+bla result: 3839 0 821 821 0
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla too long
+bla clear cache 180
+bla endx 9
+bla blocklen: 641
+bla execution 13: 16
+bla execution 15: 24
+bla execution 14: 1
+bla execution 9: 53
+bla execution 11: 8
+bla total time1: 642
+bla execution 7: 15
+bla execution 4: 102
+bla validation: 4
+bla execution 10: 1
+bla execution 0: 99
+bla execution 5: 1
+bla execution 3: 85
+bla execution 8: 161
+bla execution 1: 25
+bla execution 6: 11
+bla execution 12: 50
+bla thread-time: 9831
+bla sig: 36
+bla val: 586
+bla prologue: 585
+bla sigc: 24
+bla #txns: 586
+bla exec: 586
+bla end 483 483 0 1
+bla runblock 628
+bla runwith 16 20
+bla end 990 990 988 1024
+bla execution 12: 10
+bla execution 6: 35
+bla execution 2: 64
+bla execution 7: 68
+bla execution 4: 49
+bla execution 9: 23
+bla execution 14: 91
+bla execution 13: 40
+bla execution 5: 22
+bla execution 11: 13
+bla execution 10: 50
+bla execution 8: 24
+bla sig: 36
+bla validation: 4
+bla thread-time: 10351
+bla total time1: 959
+bla execution 3: 1
+bla execution 1: 2
+bla execution 0: 199
+bla exec: 628
+bla val: 628
+bla sigc: 26
+bla prologue: 627
+bla #txns: 628
+bla end 322 322 322 1024
+bla runblock 741
+bla runwith 16 20
+bla execution 4: 35
+bla execution 13: 36
+bla execution 10: 35
+bla execution 6: 2
+bla execution 5: 31
+bla validation: 5
+bla sig: 42
+bla end 1014 1014 1014 1024
+bla thread-time: 10687
+bla execution 12: 263
+bla execution 1: 16
+bla execution 11: 2
+bla execution 8: 19
+bla execution 15: 18
+bla execution 2: 78
+bla execution 14: 57
+bla execution 7: 5
+bla execution 9: 43
+bla total time1: 982
+bla execution 0: 45
+bla execution 3: 33
+bla sigc: 30
+bla #txns: 741
+bla exec: 741
+bla prologue: 740
+bla val: 741
+bla end 244 244 244 766
+bla runblock 1139
+bla runwith 16 20
+bla thread-time: 10356
+bla execution 8: 2
+bla execution 1: 1
+bla execution 10: 2
+bla execution 7: 43
+bla execution 5: 54
+bla execution 12: 11
+bla execution 9: 153
+bla execution 4: 15
+bla total time1: 674
+bla execution 15: 23
+bla execution 11: 18
+bla execution 14: 34
+bla execution 6: 124
+bla sig: 67
+bla execution 13: 140
+bla execution 0: 7
+bla validation: 5
+bla execution 2: 3
+bla execution 3: 60
+bla exec: 1139
+bla prologue: 1138
+bla sigc: 46
+bla #txns: 1139
+bla val: 1139
+bla runblock 585
+bla runwith 16 20
+bla execution 12: 23
+bla execution 10: 70
+bla execution 1: 10
+bla execution 3: 3
+bla execution 15: 20
+bla execution 4: 37
+bla execution 6: 27
+bla execution 0: 1
+bla execution 13: 101
+bla execution 5: 97
+bla execution 7: 110
+bla sig: 33
+bla execution 8: 101
+bla thread-time: 9332
+bla execution 11: 1
+bla execution 14: 2
+bla execution 2: 15
+bla total time1: 610
+bla validation: 4
+bla execution 9: 2
+bla exec: 585
+bla #txns: 585
+bla sigc: 24
+bla prologue: 584
+bla val: 585
+bla runblock 679
+bla runwith 16 20
+bla execution 0: 8
+bla execution 1: 61
+bla sig: 41
+bla thread-time: 10222
+bla execution 14: 96
+bla execution 4: 25
+bla execution 13: 32
+bla execution 9: 24
+bla validation: 4
+bla execution 2: 9
+bla execution 10: 31
+bla execution 15: 145
+bla execution 8: 57
+bla execution 12: 65
+bla total time1: 664
+bla execution 3: 3
+bla execution 11: 56
+bla execution 7: 23
+bla execution 5: 52
+bla execution 6: 8
+bla sigc: 28
+bla val: 679
+bla prologue: 678
+bla #txns: 679
+bla exec: 679
+bla runblock 663
+bla runwith 16 20
+bla execution 0: 60
+bla sig: 37
+bla execution 7: 37
+bla execution 10: 42
+bla execution 15: 86
+bla total time1: 685
+bla execution 11: 1
+bla execution 6: 126
+bla execution 12: 2
+bla execution 3: 16
+bla execution 9: 40
+bla execution 4: 15
+bla execution 5: 72
+bla execution 1: 49
+bla execution 2: 4
+bla execution 8: 24
+bla validation: 4
+bla execution 14: 18
+bla thread-time: 10529
+bla execution 13: 128
+bla prologue: 662
+bla exec: 663
+bla #txns: 663
+bla sigc: 27
+bla val: 663
+bla runblock 753
+bla runwith 16 20
+bla execution 4: 64
+bla execution 8: 12
+bla execution 14: 30
+bla execution 9: 56
+bla execution 2: 3
+bla execution 7: 27
+bla execution 15: 56
+bla total time1: 694
+bla execution 10: 54
+bla execution 3: 26
+bla sig: 42
+bla execution 0: 101
+bla execution 5: 85
+bla execution 12: 36
+bla thread-time: 10689
+bla validation: 5
+bla execution 11: 78
+bla execution 1: 19
+bla execution 6: 42
+bla execution 13: 38
+bla exec: 753
+bla val: 753
+bla #txns: 753
+bla prologue: 752
+bla sigc: 31
+bla runblock 602
+bla runwith 16 20
+bla execution 1: 1
+bla execution 15: 1
+bla thread-time: 9282
+bla total time1: 606
+bla execution 12: 4
+bla execution 13: 3
+bla execution 10: 68
+bla sig: 34
+bla execution 8: 3
+bla execution 3: 1
+bla execution 5: 30
+bla execution 14: 4
+bla execution 2: 102
+bla execution 0: 142
+bla execution 6: 20
+bla execution 4: 26
+bla execution 9: 182
+bla validation: 4
+bla execution 11: 25
+bla sigc: 25
+bla exec: 602
+bla #txns: 602
+bla prologue: 600
+bla val: 602
+bla runblock 674
+bla runwith 16 20
+bla validation: 4
+bla execution 1: 142
+bla execution 8: 31
+bla execution 10: 5
+bla execution 9: 11
+bla execution 4: 2
+bla execution 2: 36
+bla execution 7: 146
+bla execution 3: 69
+bla execution 6: 56
+bla execution 14: 38
+bla thread-time: 10772
+bla execution 11: 44
+bla execution 13: 12
+bla total time1: 699
+bla sig: 38
+bla execution 12: 63
+bla execution 15: 2
+bla execution 5: 36
+bla execution 0: 35
+bla val: 674
+bla sigc: 27
+bla exec: 674
+bla prologue: 673
+bla #txns: 674
+bla runblock 643
+bla runwith 16 20
+bla execution 15: 1
+bla execution 9: 22
+bla execution 6: 49
+bla execution 10: 19
+bla thread-time: 9676
+bla execution 2: 72
+bla execution 8: 57
+bla execution 0: 55
+bla execution 5: 66
+bla execution 13: 30
+bla sig: 37
+bla execution 7: 42
+bla execution 11: 46
+bla validation: 4
+bla execution 3: 3
+bla execution 14: 50
+bla execution 4: 3
+bla execution 1: 24
+bla total time1: 633
+bla execution 12: 97
+bla prologue: 642
+bla #txns: 643
+bla val: 643
+bla exec: 643
+bla sigc: 26
+bla runblock 590
+bla runwith 16 20
+bla execution 8: 26
+bla thread-time: 9677
+bla execution 6: 6
+bla execution 14: 51
+bla validation: 4
+bla total time1: 631
+bla execution 9: 103
+bla execution 3: 173
+bla sig: 33
+bla execution 15: 5
+bla execution 7: 1
+bla execution 12: 8
+bla execution 4: 72
+bla execution 5: 2
+bla execution 2: 5
+bla execution 10: 18
+bla execution 13: 154
+bla

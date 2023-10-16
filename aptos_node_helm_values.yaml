@@ -1,4 +1,4 @@
-imageTag: newpy_21_09 # change this to the docker image tag you want
+imageTag: newpy_29_09 # change this to the docker image tag you want
 
 chain:
   chain_id: TESTING

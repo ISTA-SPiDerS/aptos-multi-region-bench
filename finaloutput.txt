@@ -1,0 +1,387 @@
+2023-10-12T13:28:33.070698Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T13:28:48.874308Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 517419, committed: 517419, expired: 0, failed submission: 0
+Average rate: submitted: 1642 txn/s, committed: 1642 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14701 ms, (p50: 11800 ms, p90: 30600 ms, p99: 38600 ms), latency samples: 517419
+2023-10-12T13:36:26.982771Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T13:36:40.807700Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 493864, committed: 493864, expired: 0, failed submission: 0
+Average rate: submitted: 1577 txn/s, committed: 1577 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 15317 ms, (p50: 12200 ms, p90: 31800 ms, p99: 46900 ms), latency samples: 493864
+2023-10-12T13:44:14.820782Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T13:44:32.271593Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 503666, committed: 503666, expired: 0, failed submission: 0
+Average rate: submitted: 1588 txn/s, committed: 1588 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 15140 ms, (p50: 12100 ms, p90: 30900 ms, p99: 48000 ms), latency samples: 503666
+2023-10-12T13:52:19.377154Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T13:52:40.690065Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 488948, committed: 488948, expired: 0, failed submission: 0
+Average rate: submitted: 1523 txn/s, committed: 1523 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 15776 ms, (p50: 12600 ms, p90: 30100 ms, p99: 49000 ms), latency samples: 488948
+2023-10-12T13:59:24.005014Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T13:59:38.921697Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 508509, committed: 508509, expired: 0, failed submission: 0
+Average rate: submitted: 1619 txn/s, committed: 1619 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14966 ms, (p50: 12600 ms, p90: 27800 ms, p99: 47100 ms), latency samples: 508509
+2023-10-12T14:06:36.123188Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T14:06:51.999880Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 489589, committed: 489589, expired: 0, failed submission: 0
+Average rate: submitted: 1554 txn/s, committed: 1554 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 15465 ms, (p50: 12300 ms, p90: 31700 ms, p99: 44700 ms), latency samples: 489589
+2023-10-12T14:15:48.383889Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T14:16:01.807710Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 486666, committed: 486666, expired: 0, failed submission: 0
+Average rate: submitted: 1554 txn/s, committed: 1554 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 15591 ms, (p50: 12100 ms, p90: 32300 ms, p99: 50000 ms), latency samples: 486666
+2023-10-12T15:06:34.901122Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T15:06:38.852633Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2019502, committed: 2019502, expired: 0, failed submission: 0
+Average rate: submitted: 6665 txn/s, committed: 6665 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3656 ms, (p50: 3500 ms, p90: 4900 ms, p99: 6700 ms), latency samples: 2019502
+2023-10-12T15:13:35.177474Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T15:13:37.809136Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2038798, committed: 2038798, expired: 0, failed submission: 0
+Average rate: submitted: 6750 txn/s, committed: 6750 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3619 ms, (p50: 3500 ms, p90: 4700 ms, p99: 6200 ms), latency samples: 2038798
+2023-10-12T15:20:25.742662Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T15:20:29.394880Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2000665, committed: 2000665, expired: 0, failed submission: 0
+Average rate: submitted: 6602 txn/s, committed: 6602 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3694 ms, (p50: 3400 ms, p90: 5100 ms, p99: 7400 ms), latency samples: 2000665
+2023-10-12T15:27:27.039481Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T15:27:31.568601Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2031405, committed: 2031405, expired: 0, failed submission: 0
+Average rate: submitted: 6682 txn/s, committed: 6682 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3637 ms, (p50: 3500 ms, p90: 4900 ms, p99: 6600 ms), latency samples: 2031405
+2023-10-12T15:35:11.882714Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1907897, committed: 1907897, expired: 0, failed submission: 0
+Average rate: submitted: 6275 txn/s, committed: 6275 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3868 ms, (p50: 3700 ms, p90: 5300 ms, p99: 7300 ms), latency samples: 1907897
+2023-10-12T15:43:07.929992Z [tokio-runtime-worker] WARN crates/transaction-emitter-lib/src/emitter/submission_worker.rs:236 ["http://aabe36f4fe0394d3c90751292edcb87f-1080451559.us-east-1.elb.amazonaws.com:8080/v1/"] Transactions were not committed before expiration: 1, for [ac865f67d97fbd6ba1cabb9d152dfeacfe1a572757178e98b0764dc446a05636]
+2023-10-12T15:43:07.951025Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1929927, committed: 1929924, expired: 3, failed submission: 3
+Average rate: submitted: 5498 txn/s, committed: 5498 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3827 ms, (p50: 3600 ms, p90: 5500 ms, p99: 7700 ms), latency samples: 1929924
+2023-10-12T15:49:50.294032Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T15:49:53.835066Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1931249, committed: 1931249, expired: 0, failed submission: 0
+Average rate: submitted: 6373 txn/s, committed: 6373 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3817 ms, (p50: 3700 ms, p90: 5200 ms, p99: 6900 ms), latency samples: 1931249
+2023-10-12T15:56:18.548345Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T15:56:23.152909Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1897753, committed: 1897753, expired: 0, failed submission: 0
+Average rate: submitted: 6242 txn/s, committed: 6242 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3890 ms, (p50: 3700 ms, p90: 5300 ms, p99: 7600 ms), latency samples: 1897753
+2023-10-12T16:07:03.302357Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1593480, committed: 1593480, expired: 0, failed submission: 0
+Average rate: submitted: 5241 txn/s, committed: 5241 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4639 ms, (p50: 4600 ms, p90: 6100 ms, p99: 8000 ms), latency samples: 1593480
+2023-10-12T16:13:51.168444Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T16:13:56.423542Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1603989, committed: 1603989, expired: 0, failed submission: 0
+Average rate: submitted: 5258 txn/s, committed: 5258 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4617 ms, (p50: 4600 ms, p90: 6200 ms, p99: 8200 ms), latency samples: 1603989
+2023-10-12T16:20:33.439498Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T16:20:37.551706Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1591656, committed: 1591656, expired: 0, failed submission: 0
+Average rate: submitted: 5235 txn/s, committed: 5235 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4642 ms, (p50: 4500 ms, p90: 6200 ms, p99: 8300 ms), latency samples: 1591656
+2023-10-12T16:27:40.412508Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1614846, committed: 1614846, expired: 0, failed submission: 0
+Average rate: submitted: 5294 txn/s, committed: 5294 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4580 ms, (p50: 4400 ms, p90: 6100 ms, p99: 7600 ms), latency samples: 1614846
+2023-10-12T16:34:26.503727Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1599705, committed: 1599705, expired: 0, failed submission: 0
+Average rate: submitted: 5262 txn/s, committed: 5262 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4624 ms, (p50: 4600 ms, p90: 6100 ms, p99: 8000 ms), latency samples: 1599705
+2023-10-12T16:55:04.699835Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T16:55:07.845838Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1864346, committed: 1864346, expired: 0, failed submission: 0
+Average rate: submitted: 6152 txn/s, committed: 6152 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3958 ms, (p50: 3800 ms, p90: 5400 ms, p99: 7700 ms), latency samples: 1864346
+2023-10-12T17:01:54.419004Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T17:01:58.044330Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1891005, committed: 1891005, expired: 0, failed submission: 0
+Average rate: submitted: 6240 txn/s, committed: 6240 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3904 ms, (p50: 3800 ms, p90: 5200 ms, p99: 7000 ms), latency samples: 1891005
+2023-10-12T17:08:39.233377Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T17:08:42.928390Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1828548, committed: 1828548, expired: 0, failed submission: 0
+Average rate: submitted: 6034 txn/s, committed: 6034 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4041 ms, (p50: 3800 ms, p90: 5600 ms, p99: 8200 ms), latency samples: 1828548
+2023-10-12T17:15:28.595169Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T17:15:32.580925Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1872239, committed: 1872239, expired: 0, failed submission: 0
+Average rate: submitted: 6158 txn/s, committed: 6158 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3945 ms, (p50: 3800 ms, p90: 5200 ms, p99: 7100 ms), latency samples: 1872239
+2023-10-12T17:22:00.528257Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-12T17:22:05.850733Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1847941, committed: 1847941, expired: 0, failed submission: 0
+Average rate: submitted: 6058 txn/s, committed: 6058 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4001 ms, (p50: 3900 ms, p90: 5400 ms, p99: 7000 ms), latency samples: 1847941
+2023-10-13T07:13:17.771323Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T07:13:30.640142Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 538112, committed: 538112, expired: 0, failed submission: 0
+Average rate: submitted: 1724 txn/s, committed: 1724 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14061 ms, (p50: 13200 ms, p90: 19600 ms, p99: 38900 ms), latency samples: 538112
+2023-10-13T07:22:08.097797Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T07:22:20.730127Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 532569, committed: 532569, expired: 0, failed submission: 0
+Average rate: submitted: 1706 txn/s, committed: 1706 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14192 ms, (p50: 12800 ms, p90: 20900 ms, p99: 44700 ms), latency samples: 532569
+2023-10-13T07:29:16.391480Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T07:29:32.187644Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 530609, committed: 530609, expired: 0, failed submission: 0
+Average rate: submitted: 1684 txn/s, committed: 1684 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14321 ms, (p50: 13900 ms, p90: 20100 ms, p99: 29500 ms), latency samples: 530609
+2023-10-13T07:36:33.208959Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T07:36:47.839489Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 524402, committed: 524402, expired: 0, failed submission: 0
+Average rate: submitted: 1670 txn/s, committed: 1670 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14440 ms, (p50: 12200 ms, p90: 23400 ms, p99: 40700 ms), latency samples: 524402
+2023-10-13T07:43:24.655254Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T07:43:41.924545Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 525354, committed: 525354, expired: 0, failed submission: 0
+Average rate: submitted: 1657 txn/s, committed: 1657 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14458 ms, (p50: 13500 ms, p90: 21400 ms, p99: 35300 ms), latency samples: 525354
+2023-10-13T07:52:50.062956Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T07:53:12.498043Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 522605, committed: 522605, expired: 0, failed submission: 0
+Average rate: submitted: 1622 txn/s, committed: 1622 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 19799 ms, (p50: 17100 ms, p90: 31800 ms, p99: 48000 ms), latency samples: 522605
+2023-10-13T08:00:19.521388Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T08:00:38.426831Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 501797, committed: 495250, expired: 6547, failed submission: 3964
+Average rate: submitted: 1577 txn/s, committed: 1557 txn/s, expired: 20 txn/s, failed submission: 12 tnx/s, latency: 16767 ms, (p50: 15000 ms, p90: 30400 ms, p99: 53000 ms), latency samples: 495250
+2023-10-13T08:18:10.495579Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T08:18:27.167528Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 534003, committed: 534003, expired: 0, failed submission: 0
+Average rate: submitted: 1689 txn/s, committed: 1689 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 16730 ms, (p50: 14500 ms, p90: 28700 ms, p99: 42800 ms), latency samples: 534003
+2023-10-13T08:31:40.975095Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T08:31:58.860079Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 533442, committed: 533442, expired: 0, failed submission: 0
+Average rate: submitted: 1682 txn/s, committed: 1682 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14204 ms, (p50: 13400 ms, p90: 20400 ms, p99: 32300 ms), latency samples: 533442
+2023-10-13T08:38:39.152764Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T08:38:53.778064Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 523713, committed: 523713, expired: 0, failed submission: 0
+Average rate: submitted: 1667 txn/s, committed: 1667 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14498 ms, (p50: 12800 ms, p90: 22200 ms, p99: 42700 ms), latency samples: 523713
+2023-10-13T08:45:25.582294Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T08:45:49.998650Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 522854, committed: 522854, expired: 0, failed submission: 0
+Average rate: submitted: 1613 txn/s, committed: 1613 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14539 ms, (p50: 13400 ms, p90: 20900 ms, p99: 40300 ms), latency samples: 522854
+2023-10-13T08:52:32.974912Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T08:52:47.186570Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 514093, committed: 514093, expired: 0, failed submission: 0
+Average rate: submitted: 1637 txn/s, committed: 1637 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14742 ms, (p50: 12600 ms, p90: 22900 ms, p99: 46000 ms), latency samples: 514093
+2023-10-13T08:59:25.737808Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T08:59:50.287557Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 520817, committed: 520817, expired: 0, failed submission: 0
+Average rate: submitted: 1607 txn/s, committed: 1607 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14616 ms, (p50: 13400 ms, p90: 23300 ms, p99: 38100 ms), latency samples: 520817
+2023-10-13T09:06:31.101139Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T09:06:40.301301Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 512061, committed: 512061, expired: 0, failed submission: 0
+Average rate: submitted: 1657 txn/s, committed: 1657 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 9685 ms, (p50: 9400 ms, p90: 13400 ms, p99: 18500 ms), latency samples: 512061
+2023-10-13T09:13:10.796991Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T09:13:20.348245Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 509660, committed: 509660, expired: 0, failed submission: 0
+Average rate: submitted: 1649 txn/s, committed: 1649 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 9709 ms, (p50: 9400 ms, p90: 13500 ms, p99: 18600 ms), latency samples: 509660
+2023-10-13T09:19:46.847894Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T09:19:55.354041Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 509229, committed: 509229, expired: 0, failed submission: 0
+Average rate: submitted: 1653 txn/s, committed: 1653 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 9734 ms, (p50: 9400 ms, p90: 13000 ms, p99: 19800 ms), latency samples: 509229
+2023-10-13T09:26:19.760944Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T09:26:30.210334Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 508030, committed: 508030, expired: 0, failed submission: 0
+Average rate: submitted: 1638 txn/s, committed: 1638 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 9788 ms, (p50: 9300 ms, p90: 13600 ms, p99: 21400 ms), latency samples: 508030
+2023-10-13T09:35:03.447637Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T09:35:17.796599Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 522854, committed: 522854, expired: 0, failed submission: 0
+Average rate: submitted: 1665 txn/s, committed: 1665 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14490 ms, (p50: 13000 ms, p90: 20700 ms, p99: 44200 ms), latency samples: 522854
+2023-10-13T09:42:34.743493Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T09:42:57.269896Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 513263, committed: 513263, expired: 0, failed submission: 0
+Average rate: submitted: 1593 txn/s, committed: 1593 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14727 ms, (p50: 13600 ms, p90: 21900 ms, p99: 44800 ms), latency samples: 513263
+2023-10-13T09:49:41.237923Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T09:50:08.212651Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 512873, committed: 512873, expired: 0, failed submission: 0
+Average rate: submitted: 1568 txn/s, committed: 1568 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14826 ms, (p50: 12800 ms, p90: 22400 ms, p99: 43900 ms), latency samples: 512873
+2023-10-13T09:59:14.854911Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1605869, committed: 1605869, expired: 0, failed submission: 0
+Average rate: submitted: 5299 txn/s, committed: 5299 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3037 ms, (p50: 2800 ms, p90: 4100 ms, p99: 5400 ms), latency samples: 1605869
+2023-10-13T10:06:06.496267Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T10:06:12.353241Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1585930, committed: 1585930, expired: 0, failed submission: 0
+Average rate: submitted: 5199 txn/s, committed: 5199 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3082 ms, (p50: 3000 ms, p90: 4000 ms, p99: 5500 ms), latency samples: 1585930
+2023-10-13T10:12:57.100646Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T10:13:00.267741Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1597485, committed: 1597485, expired: 0, failed submission: 0
+Average rate: submitted: 5272 txn/s, committed: 5272 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3054 ms, (p50: 3000 ms, p90: 4000 ms, p99: 5500 ms), latency samples: 1597485
+2023-10-13T10:19:17.271906Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T10:19:23.874064Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1587923, committed: 1587923, expired: 0, failed submission: 0
+Average rate: submitted: 5189 txn/s, committed: 5189 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3079 ms, (p50: 3000 ms, p90: 4000 ms, p99: 5400 ms), latency samples: 1587923
+2023-10-13T10:25:38.060096Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1601804, committed: 1601804, expired: 0, failed submission: 0
+Average rate: submitted: 5286 txn/s, committed: 5286 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3045 ms, (p50: 3000 ms, p90: 3900 ms, p99: 5400 ms), latency samples: 1601804
+2023-10-13T10:32:35.046806Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T10:32:37.892344Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1945599, committed: 1945599, expired: 0, failed submission: 0
+Average rate: submitted: 6442 txn/s, committed: 6442 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 2506 ms, (p50: 2400 ms, p90: 3300 ms, p99: 4900 ms), latency samples: 1945599
+2023-10-13T10:38:48.355041Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1988496, committed: 1988496, expired: 0, failed submission: 0
+Average rate: submitted: 6562 txn/s, committed: 6562 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 2454 ms, (p50: 2400 ms, p90: 3300 ms, p99: 4200 ms), latency samples: 1988496
+2023-10-13T10:45:06.197635Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T10:45:08.624690Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1942598, committed: 1942598, expired: 0, failed submission: 0
+Average rate: submitted: 6432 txn/s, committed: 6432 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 2510 ms, (p50: 2400 ms, p90: 3300 ms, p99: 5200 ms), latency samples: 1942598
+2023-10-13T10:51:37.163726Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T10:51:39.355696Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1961086, committed: 1961086, expired: 0, failed submission: 0
+Average rate: submitted: 6493 txn/s, committed: 6493 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 2485 ms, (p50: 2400 ms, p90: 3300 ms, p99: 4300 ms), latency samples: 1961086
+Generating NFT 1 transactions
+2023-10-13T10:58:05.878692Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1923738, committed: 1923738, expired: 0, failed submission: 0
+Average rate: submitted: 6369 txn/s, committed: 6369 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 2536 ms, (p50: 2400 ms, p90: 3400 ms, p99: 4900 ms), latency samples: 1923738
+2023-10-13T11:06:58.842175Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T11:07:02.340873Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1845339, committed: 1845339, expired: 0, failed submission: 0
+Average rate: submitted: 6090 txn/s, committed: 6090 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 2644 ms, (p50: 2500 ms, p90: 3600 ms, p99: 4600 ms), latency samples: 1845339
+2023-10-13T11:13:21.222099Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T11:13:24.754612Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1864896, committed: 1864896, expired: 0, failed submission: 0
+Average rate: submitted: 6154 txn/s, committed: 6154 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 2616 ms, (p50: 2400 ms, p90: 3500 ms, p99: 4800 ms), latency samples: 1864896
+2023-10-13T11:19:46.230356Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1812170, committed: 1812170, expired: 0, failed submission: 0
+Average rate: submitted: 5980 txn/s, committed: 5980 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 2691 ms, (p50: 2500 ms, p90: 3700 ms, p99: 5100 ms), latency samples: 1812170
+2023-10-13T11:26:12.703995Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T11:26:17.557781Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1853582, committed: 1853582, expired: 0, failed submission: 0
+Average rate: submitted: 6097 txn/s, committed: 6097 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 2633 ms, (p50: 2500 ms, p90: 3400 ms, p99: 4300 ms), latency samples: 1853582
+2023-10-13T11:32:29.529856Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T11:32:32.036412Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1824600, committed: 1824600, expired: 0, failed submission: 0
+Average rate: submitted: 6041 txn/s, committed: 6041 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 2671 ms, (p50: 2500 ms, p90: 3500 ms, p99: 4900 ms), latency samples: 1824600
+2023-10-13T12:00:28.789607Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1891410, committed: 1891410, expired: 0, failed submission: 0
+Average rate: submitted: 6221 txn/s, committed: 6221 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3907 ms, (p50: 3700 ms, p90: 5200 ms, p99: 7000 ms), latency samples: 1891410
+2023-10-13T12:20:35.045947Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-13T12:20:39.918843Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1884446, committed: 1884446, expired: 0, failed submission: 0
+Average rate: submitted: 6198 txn/s, committed: 6198 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3922 ms, (p50: 3700 ms, p90: 5200 ms, p99: 7000 ms), latency samples: 1884446
+2023-10-13T12:27:13.676961Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1862273, committed: 1862273, expired: 0, failed submission: 0
+Average rate: submitted: 6125 txn/s, committed: 6125 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3970 ms, (p50: 3700 ms, p90: 5500 ms, p99: 8200 ms), latency samples: 1862273
+2023-10-16T06:06:56.227494Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T06:07:01.366606Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2148346, committed: 2148345, expired: 1, failed submission: 1
+Average rate: submitted: 7043 txn/s, committed: 7043 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3450 ms, (p50: 3200 ms, p90: 4800 ms, p99: 7500 ms), latency samples: 2148345
+2023-10-16T06:20:17.602924Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T06:20:22.244813Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2179227, committed: 2179227, expired: 0, failed submission: 0
+Average rate: submitted: 7168 txn/s, committed: 7168 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3391 ms, (p50: 3200 ms, p90: 4600 ms, p99: 7000 ms), latency samples: 2179227
+2023-10-16T06:33:33.278851Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T06:33:37.089451Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2109205, committed: 2109202, expired: 3, failed submission: 3
+Average rate: submitted: 6961 txn/s, committed: 6961 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3501 ms, (p50: 3300 ms, p90: 4600 ms, p99: 6500 ms), latency samples: 2109202
+2023-10-16T06:42:12.990500Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T06:42:19.252949Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2102173, committed: 2102173, expired: 0, failed submission: 0
+Average rate: submitted: 6869 txn/s, committed: 6869 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3514 ms, (p50: 3300 ms, p90: 4700 ms, p99: 6800 ms), latency samples: 2102173
+2023-10-16T06:50:52.248821Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T06:51:05.525131Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2075629, committed: 2075629, expired: 0, failed submission: 0
+Average rate: submitted: 6631 txn/s, committed: 6631 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3589 ms, (p50: 3400 ms, p90: 4800 ms, p99: 7700 ms), latency samples: 2075629
+2023-10-16T07:04:09.940019Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T07:04:13.257505Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2111906, committed: 2111902, expired: 4, failed submission: 4
+Average rate: submitted: 6969 txn/s, committed: 6969 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3493 ms, (p50: 3300 ms, p90: 4600 ms, p99: 6400 ms), latency samples: 2111902
+2023-10-16T07:22:04.654747Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T07:22:09.580991Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1781900, committed: 1781900, expired: 0, failed submission: 0
+Average rate: submitted: 5861 txn/s, committed: 5861 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4148 ms, (p50: 3900 ms, p90: 5700 ms, p99: 7300 ms), latency samples: 1781900
+2023-10-16T07:31:08.651113Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T07:31:13.873721Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1774204, committed: 1774204, expired: 0, failed submission: 0
+Average rate: submitted: 5817 txn/s, committed: 5817 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4169 ms, (p50: 3900 ms, p90: 5800 ms, p99: 7700 ms), latency samples: 1774204
+2023-10-16T07:40:05.136898Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T07:40:11.195920Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1782567, committed: 1782567, expired: 0, failed submission: 0
+Average rate: submitted: 5825 txn/s, committed: 5825 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4150 ms, (p50: 3900 ms, p90: 5500 ms, p99: 7700 ms), latency samples: 1782567
+2023-10-16T07:48:49.315074Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T07:48:52.120755Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2185956, committed: 2185956, expired: 0, failed submission: 0
+Average rate: submitted: 7238 txn/s, committed: 7238 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3375 ms, (p50: 3300 ms, p90: 4500 ms, p99: 6200 ms), latency samples: 2185956
+nft
+2023-10-16T08:04:36.117883Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T08:04:39.277240Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2243695, committed: 2243695, expired: 0, failed submission: 0
+Average rate: submitted: 7404 txn/s, committed: 7404 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3289 ms, (p50: 3100 ms, p90: 4300 ms, p99: 5900 ms), latency samples: 2243695
+nft
+nft
+2023-10-16T08:32:57.220129Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T08:33:00.272678Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2236001, committed: 2236001, expired: 0, failed submission: 0
+Average rate: submitted: 7379 txn/s, committed: 7379 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3300 ms, (p50: 3100 ms, p90: 4300 ms, p99: 6100 ms), latency samples: 2236001
+2023-10-16T08:41:51.751710Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T08:41:55.057595Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2245489, committed: 2245489, expired: 0, failed submission: 0
+Average rate: submitted: 7410 txn/s, committed: 7410 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3281 ms, (p50: 3100 ms, p90: 4300 ms, p99: 6100 ms), latency samples: 2245489
+2023-10-16T08:50:47.878596Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T08:50:51.304221Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2242401, committed: 2242401, expired: 0, failed submission: 0
+Average rate: submitted: 7400 txn/s, committed: 7400 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3292 ms, (p50: 3100 ms, p90: 4400 ms, p99: 5800 ms), latency samples: 2242401
+2023-10-16T08:59:32.935622Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T08:59:36.394360Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2232754, committed: 2232754, expired: 0, failed submission: 0
+Average rate: submitted: 7368 txn/s, committed: 7368 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3305 ms, (p50: 3100 ms, p90: 4300 ms, p99: 5800 ms), latency samples: 2232754
+2023-10-16T09:08:18.749531Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T09:08:22.023461Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2257234, committed: 2257234, expired: 0, failed submission: 0
+Average rate: submitted: 7449 txn/s, committed: 7449 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3270 ms, (p50: 3100 ms, p90: 4300 ms, p99: 5700 ms), latency samples: 2257234
+dexavg
+2023-10-16T09:17:23.274743Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T09:17:26.701312Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2102938, committed: 2102938, expired: 0, failed submission: 0
+Average rate: submitted: 6940 txn/s, committed: 6940 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3507 ms, (p50: 3300 ms, p90: 4600 ms, p99: 7000 ms), latency samples: 2102938
+2023-10-16T09:26:10.373228Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T09:26:14.037569Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2121578, committed: 2121578, expired: 0, failed submission: 0
+Average rate: submitted: 7001 txn/s, committed: 7001 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3481 ms, (p50: 3300 ms, p90: 4600 ms, p99: 6100 ms), latency samples: 2121578
+2023-10-16T09:35:19.998034Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T09:35:24.035150Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2100227, committed: 2100222, expired: 5, failed submission: 5
+Average rate: submitted: 6908 txn/s, committed: 6908 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3515 ms, (p50: 3300 ms, p90: 4700 ms, p99: 6200 ms), latency samples: 2100222
+2023-10-16T09:44:24.846580Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T09:44:28.731768Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2097283, committed: 2097283, expired: 0, failed submission: 0
+Average rate: submitted: 6921 txn/s, committed: 6921 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3520 ms, (p50: 3300 ms, p90: 4600 ms, p99: 7500 ms), latency samples: 2097283
+2023-10-16T09:53:34.942897Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T09:53:39.937694Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2100736, committed: 2100736, expired: 0, failed submission: 0
+Average rate: submitted: 6887 txn/s, committed: 6887 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3509 ms, (p50: 3400 ms, p90: 4600 ms, p99: 5900 ms), latency samples: 2100736
+dexbursty
+2023-10-16T10:02:30.634834Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T10:02:36.134851Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1775086, committed: 1775086, expired: 0, failed submission: 0
+Average rate: submitted: 5819 txn/s, committed: 5819 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4162 ms, (p50: 3900 ms, p90: 5800 ms, p99: 7900 ms), latency samples: 1775086
+2023-10-16T10:11:39.434131Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1764693, committed: 1764693, expired: 0, failed submission: 0
+Average rate: submitted: 5804 txn/s, committed: 5804 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4187 ms, (p50: 3900 ms, p90: 5700 ms, p99: 8500 ms), latency samples: 1764693
+2023-10-16T10:20:28.051741Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1769504, committed: 1769499, expired: 5, failed submission: 5
+Average rate: submitted: 5820 txn/s, committed: 5820 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4176 ms, (p50: 3900 ms, p90: 5500 ms, p99: 7900 ms), latency samples: 1769499
+2023-10-16T10:29:10.586297Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T10:29:14.545485Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1773125, committed: 1773125, expired: 0, failed submission: 0
+Average rate: submitted: 5851 txn/s, committed: 5851 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4164 ms, (p50: 3900 ms, p90: 5700 ms, p99: 7700 ms), latency samples: 1773125
+2023-10-16T10:38:05.617421Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T10:38:10.534661Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 1772791, committed: 1772791, expired: 0, failed submission: 0
+Average rate: submitted: 5831 txn/s, committed: 5831 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 4173 ms, (p50: 3900 ms, p90: 5700 ms, p99: 7600 ms), latency samples: 1772791
+p2p
+2023-10-16T10:47:00.388402Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T10:47:05.944613Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2193261, committed: 2193261, expired: 0, failed submission: 0
+Average rate: submitted: 7191 txn/s, committed: 7191 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3370 ms, (p50: 3300 ms, p90: 4500 ms, p99: 6000 ms), latency samples: 2193261
+2023-10-16T10:55:44.671419Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T10:55:47.830651Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2211142, committed: 2211142, expired: 0, failed submission: 0
+Average rate: submitted: 7297 txn/s, committed: 7297 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3334 ms, (p50: 3300 ms, p90: 4400 ms, p99: 6100 ms), latency samples: 2211142
+2023-10-16T11:04:31.980830Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T11:04:36.902646Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2231425, committed: 2231425, expired: 0, failed submission: 0
+Average rate: submitted: 7340 txn/s, committed: 7340 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3305 ms, (p50: 3100 ms, p90: 4300 ms, p99: 5800 ms), latency samples: 2231425
+2023-10-16T11:13:37.670957Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T11:13:40.727103Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2195745, committed: 2195745, expired: 0, failed submission: 0
+Average rate: submitted: 7246 txn/s, committed: 7246 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3356 ms, (p50: 3300 ms, p90: 4500 ms, p99: 5900 ms), latency samples: 2195745
+2023-10-16T11:22:51.865923Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T11:22:55.639280Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 2216594, committed: 2216594, expired: 0, failed submission: 0
+Average rate: submitted: 7315 txn/s, committed: 7315 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 3326 ms, (p50: 3100 ms, p90: 4400 ms, p99: 5800 ms), latency samples: 2216594
+solana
+2023-10-16T11:31:33.472547Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T11:31:46.988784Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 540018, committed: 540018, expired: 0, failed submission: 0
+Average rate: submitted: 1725 txn/s, committed: 1725 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14035 ms, (p50: 12400 ms, p90: 21100 ms, p99: 41400 ms), latency samples: 540018
+2023-10-16T11:40:30.455257Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T11:40:48.666813Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 547494, committed: 547494, expired: 0, failed submission: 0
+Average rate: submitted: 1721 txn/s, committed: 1721 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 13927 ms, (p50: 13400 ms, p90: 20000 ms, p99: 29400 ms), latency samples: 547494
+2023-10-16T11:49:44.678316Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T11:50:07.225887Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 531746, committed: 531746, expired: 0, failed submission: 0
+Average rate: submitted: 1651 txn/s, committed: 1651 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14309 ms, (p50: 13000 ms, p90: 21200 ms, p99: 36500 ms), latency samples: 531746
+2023-10-16T11:59:06.086170Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:728 Ran for 300 secs, stopping job...
+2023-10-16T11:59:23.144186Z [main] INFO crates/transaction-emitter-lib/src/emitter/mod.rs:730 Stopped job
+Total stats: submitted: 540827, committed: 540827, expired: 0, failed submission: 0
+Average rate: submitted: 1706 txn/s, committed: 1706 txn/s, expired: 0 txn/s, failed submission: 0 tnx/s, latency: 14012 ms, (p50: 13300 ms, p90: 19700 ms, p99: 32800 ms), latency samples: 540827
