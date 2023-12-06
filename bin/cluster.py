@@ -40,7 +40,7 @@ def get_validator_fullnode_host(
                     validator_host = service.status.load_balancer.ingress[0].hostname
                     print(service.status)
                 if fullnode_svc_substring in service.metadata.name:
-                    fullnode_host = service.status.load_balancer.ingress[0].hostname
+                    "fullnode_host = service.status.load_balancer.ingress[0].hostname"
 
             except:
                 print(
@@ -145,7 +145,7 @@ def auth() -> None:
             raise SystemExit(1)
 
 
-def generate_keys_for_genesis(cli_path: str = "") -> None:
+def generate_keys_for_genesis(cli_path: str = "/media/jon/Intenso/aptos-fork/target/release/") -> None:
     procs: List[subprocess.Popen] = []
     for cluster, nodes_per_cluster in CLUSTERS.items():
         print(
@@ -175,11 +175,12 @@ def generate_keys_for_genesis(cli_path: str = "") -> None:
     print("Successfully generated keys for genesis")
 
 
-def set_validator_configuration_for_genesis(cli_path: str = "") -> None:
+def set_validator_configuration_for_genesis(cli_path: str = "/media/jon/Intenso/aptos-fork/target/release/") -> None:
     procs: List[subprocess.Popen] = []
     # get the services for each cluster
     for cluster in CLUSTERS:
         validator_fullnode_hosts_cluster_list = get_validator_fullnode_hosts(cluster)
+        print(validator_fullnode_hosts_cluster_list)
         for i, hosts in enumerate(validator_fullnode_hosts_cluster_list):
             node_index = f"aptos-node-{i}"
             node_username = f"{cluster.value}-{node_index}"
@@ -202,8 +203,6 @@ def set_validator_configuration_for_genesis(cli_path: str = "") -> None:
                         node_username,
                         "--validator-host",
                         validator_host_with_port,
-                        "--full-node-host",
-                        fullnode_host_with_port,
                         "--stake-amount",
                         f"{10**8 * 10**6}",  # 1M APT in octas
                     ],
@@ -241,7 +240,7 @@ def genesis() -> None:
 )
 @click.option(
     "--cli-path",
-    default="",
+    default="/media/jon/Intenso/aptos-fork/target/release/",
     help="Path to the aptos CLI executable",
 )
 @click.option(
@@ -252,7 +251,7 @@ def genesis() -> None:
 )
 def create_genesis(
     generate_keys: bool = False,
-    cli_path: str = "",
+    cli_path: str = "/media/jon/Intenso/aptos-fork/target/release/",
     dry_run: bool = False,
 ) -> None:
     """

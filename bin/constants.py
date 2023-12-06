@@ -6,7 +6,7 @@ from kubernetes import config, client
 
 
 class Cluster(Enum):
-    US = "bench-us-east"
+    US = "bench-us-west"
     EU = "bench-europe-west4"
     ASIA = "bench-asia-east1"
     ALL = "all"
@@ -24,7 +24,7 @@ APTOS_NODE_HELM_VALUES_FILE = "aptos_node_helm_values.yaml"
 CLUSTERS = {Cluster.US: 4} # smaller cluster configuration for testing
 # CLUSTERS = {Cluster.NA: 5, Cluster.EU: 5, Cluster.ASIA: 6} # smaller cluster configuration for testing
 KUBE_CONTEXTS = {
-    Cluster.US: f"arn:aws:eks:us-east-1:064124621132:cluster/aptos-default",
+    Cluster.US: f"arn:aws:eks:us-west-1:064124621132:cluster/aptos-bench-us-west",
     #Cluster.EU: f"gke_{GCP_PROJECT_ID}_europe-west4-a_aptos-{Cluster.EU.value}",
     #Cluster.ASIA: f"gke_{GCP_PROJECT_ID}_asia-east1-a_aptos-{Cluster.ASIA.value}",
 }

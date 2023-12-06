@@ -1,0 +1,39 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: loadtest
+spec:
+  containers:
+  - command:
+    - aptos-transaction-emitter
+    - emit-tx
+    - --mint-key=0xE25708D90C72A53B400B27FC7602C4D546C7B7469FA6E12544F0EBFB2F16AE19
+    - --chain-id=7
+    - --targets=http://a68d54f52589747cc8fa231d0629f214-226840208.us-west-1.elb.amazonaws.com:8080
+    - --targets=http://aa72c327a4a0a401baebbfc5bd92cd7e-1430855226.us-west-1.elb.amazonaws.com:8080
+    - --targets=http://a84ae7b94c3b24a419b4c9c1de240fce-462871542.us-west-1.elb.amazonaws.com:8080
+    - --targets=http://a3928d6899d344a45bf54d693855953d-2011738330.us-west-1.elb.amazonaws.com:8080
+    - --mempool-backlog=25000
+    - --duration=3600
+    - --expected-max-txns=72000000
+    - --txn-expiration-time-secs=60
+    - --max-transactions-per-account=1
+    - --workers-per-endpoint=6000
+    - --accounts-per-worker=4
+    - --transaction-type
+    - nft
+    env:
+    - name: RUST_BACKTRACE
+      value: '1'
+    - name: REUSE_ACC
+      value: '1'
+    image: raycoms/tools:newpy_12_10
+    name: loadtest
+    resources:
+      limits:
+        cpu: '20'
+        memory: 64Gi
+      requests:
+        cpu: '20'
+        memory: 64Gi
+  restartPolicy: Never
